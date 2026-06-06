@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Configurare Dieta Inteligentă</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body { background-color: #f8f9fa; }
+        .card { border-radius: 12px; border: none; }
+        .section-title { border-left: 4px solid #0d6efd; padding-left: 10px; font-weight: 600; color: #495057; }
+    </style>
+</head>
+<body>
+
+<div class="container my-5" style="max-width: 750px;">
+    <div class="text-center mb-5">
+        <h1 class="fw-bold text-primary">Asistentul Tău de Dietă</h1>
+    </div>
+
+    <div class="card shadow-sm p-4 bg-white">
+        <form action="/genereaza" method="POST">
+            {% set bio = profil.utilizator.biometrie if profil else none %}
+            {% set rest = profil.restrictii if profil else none %}
+
+            <h5 class="section-title mb-3">Date Personale & Biometrie</h5>
+            <div class="row g-3 mb-4">
+                <div class="col-md-6">
+                    <label class="form-label fw-semibold">Vârsta (ani):</label>
+                    <input type="number" name="varsta" class="form-control" 
+                           value="{{ bio.varsta if bio else '' }}" required min="1" max="100">
+                </div>
+                <div class="col-md-6">
+                    <label class="form-label fw-semibold">Genul:</label>
+                    <select name="gen" class="form-select" required>
+                        <option value="">Alege...</option>
+                        <option value="feminin" {{ 'selected' if bio and bio.gen == 'feminin' }}>Feminin</option>
+                        <option value="masculin" {{ 'selected' if bio and bio.gen == 'masculin' }}>Masculin</option>
+                        <option value="altul" {{ 'selected' if bio and bio.gen == 'altul' }}>Altul</option>
+                    </select>
+                </div>
+                <div class="col-md-6">
+                    <label class="form-label fw-semibold">Greutatea actuală (kg):</label>
+                    <input type="number" step="0.1" name="greutate" class="form-control" 
+                           value="{{ bio.greutate if bio else '' }}" required>
+                </div>
+                <div class="col-md-6">
+                    <label class="form-label fw-semibold">Înălțimea (cm):</label>
+                    <input type="number" name="inaltime" class="form-control" 
+                           value="{{ bio.inaltime if bio else '' }}" required>
+                </div>
+            </div>
+
+            <h5 class="section-title mb-3">Buget & Planificare</h5>
+            <div class="row g-3 mb-4">
+                <div class="col-md-6">
+                    <label class="form-label fw-semibold">Buget săptămânal (RON):</label>
+                    <input type="number" name="buget" class="form-control" 
+                           value="{{ rest.buget_maxim if rest else '' }}" required>
+                </div>
+                <div class="col-md-6">
+                    <label class="form-label fw-semibold">Număr săptămâni:</label>
+                    <select name="saptamani" class="form-select">
+                        <option value="1">1 Săptămână</option>
+                        <option value="2" selected>2 Săptămâni</option>
+                        <option value="3">3 Săptămâni</option>
+                        <option value="4">4 Săptămâni</option>
+                    </select>
+                </div>
+            </div>
+
+            <h5 class="section-title mb-3">Sănătate & Obiective</h5>
+            <div class="mb-3">
+                <label class="form-label fw-semibold">Scopul tău:</label>
+                <select name="obiectiv" class="form-select" required>
+                    <option value="">Alege...</option>
+                    <option value="sa slabesc" {{ 'selected' if rest and 'slab' in rest.obiectiv }}>Să slăbesc</option>
+                    <option value="sa ma ingras" {{ 'selected' if rest and 'ingras' in rest.obiectiv }}>Să mă îngraș</option>
+                    <option value="sa imi pastrez greutatea actuala" {{ 'selected' if rest and 'pastrez' in rest.obiectiv }}>Să îmi păstrez greutatea</option>
+                </select>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label fw-semibold">Alergii (separate prin virgulă):</label>
+                <input type="text" name="alergii" class="form-control" 
+                       value="{{ rest.alergeni|join(', ') if rest and rest.alergeni else '' }}"
+                       placeholder="ex: lapte, arahide">
+            </div>
+
+            <div class="row g-3 mb-4">
+                <div class="col-md-6">
+                    <label class="form-label fw-semibold">Deficiență:</label>
+                    <select name="deficienta" class="form-select">
+                        <option value="nu" {{ 'selected' if not rest or rest.deficienta == 'nu' }}>Nu am</option>
+                        <option value="calciu_mg" {{ 'selected' if rest and rest.deficienta == 'calciu_mg' }}>Calciu</option>
+                        <option value="vitamina_c_mg" {{ 'selected' if rest and rest.deficienta == 'vitamina_c_mg' }}>Vitamina C</option>
+                        <option value="fier_mg" {{ 'selected' if rest and rest.deficienta == 'fier_mg' }}>Fier</option>
+                        <option value="proteine_g" {{ 'selected' if rest and rest.deficienta == 'proteine_g' }}>Proteine</option>
+                    </select>
+                </div>
+                <div class="col-md-6">
+                    <label class="form-label fw-semibold">Nivel activitate:</label>
+                    <select name="stil_de_viata" class="form-select" required>
+                        <option value="">Alege...</option>
+                        <option value="sedentar" {{ 'selected' if rest and 'sedentar' in rest.stil_de_viata }}>Sedentar</option>
+                        <option value="activitate usoara" {{ 'selected' if rest and 'usoara' in rest.stil_de_viata }}>Ușoară</option>
+                        <option value="activ" {{ 'selected' if rest and rest.stil_de_viata == 'activ' }}>Activ</option>
+                        <option value="foarte activ" {{ 'selected' if rest and 'foarte' in rest.stil_de_viata }}>Foarte activ</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="d-grid mt-4">
+                <button type="submit" class="btn btn-primary btn-lg">Generează Planul</button>
+            </div>
+        </form>
+    </div>
+</div>
+</body>
+</html>

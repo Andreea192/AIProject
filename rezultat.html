@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planul Tău Alimentar Generat</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body { background-color: #f1f3f5; }
+        .day-card { border-radius: 12px; background-color: #ffffff; border: none; margin-bottom: 25px; }
+        .meal-badge { width: 110px; text-align: center; font-weight: bold; font-size: 0.85rem; }
+        .bg-dimineata { background-color: #fff3cd; color: #856404; }
+        .bg-pranz { background-color: #cce5ff; color: #004085; }
+        .bg-seara { background-color: #e2e3e5; color: #383d41; }
+        .bg-gustare { background-color: #d4edda; color: #155724; }
+    </style>
+</head>
+<body>
+
+<div class="container my-5">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <div>
+            <h1 class="fw-bold text-dark">Planul Tău Dietetic Personalizat</h1>
+            <p class="text-muted mb-0">Țintă zilnică calculată: <strong class="text-primary">{{ tinta_kcal|int }} kcal</strong></p>
+        </div>
+        <a href="/" class="btn btn-outline-secondary fw-semibold">Modifică Datele</a>
+    </div>
+
+    <ul class="nav nav-pills nav-justified mb-4 shadow-sm p-1 bg-white rounded-3" id="pills-tab" role="tablist">
+        {% for s in range(nr_sapt) %}
+        <li class="nav-item" role="presentation">
+            <button class="nav-link {% if s == 0 %}active{% endif %} fw-bold py-2.5" 
+                    id="pill-sapt-{{ s }}-tab" data-bs-toggle="pill" data-bs-target="#pill-sapt-{{ s }}" 
+                    type="button" role="tab">
+                SĂPTĂMÂNA {{ s + 1 }}
+            </button>
+        </li>
+        {% endfor %}
+    </ul>
+
+    <div class="tab-content" id="pills-tabContent">
+        {% for s in range(nr_sapt) %}
+        <div class="tab-pane fade {% if s == 0 %}show active{% endif %}" id="pill-sapt-{{ s }}" role="tabpanel">
+            
+            {% for z in range(7) %}
+            <div class="day-card shadow-sm p-4">
+                <div class="d-flex justify-content-between align-items-center border-bottom pb-3 mb-3">
+                    <h4 class="fw-bold text-secondary mb-0">Ziua {{ z + 1 }}</h4>
+                    <span class="badge bg-primary fs-6 py-2 px-3">Echilibrat {{ tinta_kcal|int }} kcal</span>
+                </div>
+
+                <div class="row g-3">
+                    {% set d_mas = plan.get((s, z, 'dimineata')) %}
+                    {% if d_mas %}
+                    <div class="col-12 d-md-flex align-items-center justify-content-between p-2 border-bottom">
+                        <div class="d-flex align-items-center">
+                            <span class="badge meal-badge bg-dimineata me-3 p-2">MIC DEJUN</span>
+                            <div>
+                                <h6 class="mb-0 fw-bold">{{ d_mas.r.nume }}</h6>
+                                <small class="text-muted">Cantitate scalată proporțional: <strong>x{{ "%.2f"|format(d_mas.f) }}</strong></small>
+                            </div>
+                        </div>
+                        <div class="text-end mt-2 mt-md-0">
+                            <span class="fw-bold text-dark">{{ (d_mas.r.calorii_baza * d_mas.f)|int }} kcal</span>
+                        </div>
+                    </div>
+                    {% endif %}
+
+                    {% set p_mas = plan.get((s, z, 'pranz')) %}
+                    {% if p_mas %}
+                    <div class="col-12 d-md-flex align-items-center justify-content-between p-2 border-bottom">
+                        <div class="d-flex align-items-center">
+                            <span class="badge meal-badge bg-pranz me-3 p-2">PRÂNZ</span>
+                            <div>
+                                <h6 class="mb-0 fw-bold">{{ p_mas.r.nume }}</h6>
+                                <small class="text-muted">Cantitate scalată proporțional: <strong>x{{ "%.2f"|format(p_mas.f) }}</strong></small>
+                            </div>
+                        </div>
+                        <div class="text-end mt-2 mt-md-0">
+                            <span class="fw-bold text-dark">{{ (p_mas.r.calorii_baza * p_mas.f)|int }} kcal</span>
+                        </div>
+                    </div>
+                    {% endif %}
+
+                    {% set s_mas = plan.get((s, z, 'seara')) %}
+                    {% if s_mas %}
+                    <div class="col-12 d-md-flex align-items-center justify-content-between p-2 border-bottom">
+                        <div class="d-flex align-items-center">
+                            <span class="badge meal-badge bg-seara me-3 p-2">CINĂ</span>
+                            <div>
+                                <h6 class="mb-0 fw-bold">{{ s_mas.r.nume }}</h6>
+                                <small class="text-muted">Cantitate scalată proporțional: <strong>x{{ "%.2f"|format(s_mas.f) }}</strong></small>
+                            </div>
+                        </div>
+                        <div class="text-end mt-2 mt-md-0">
+                            <span class="fw-bold text-dark">{{ (s_mas.r.calorii_baza * s_mas.f)|int }} kcal</span>
+                        </div>
+                    </div>
+                    {% endif %}
+
+                    <div class="col-12 d-md-flex align-items-center justify-content-between p-2">
+                        <div class="d-flex align-items-center">
+                            <span class="badge meal-badge bg-gustare me-3 p-2">GUSTĂRI (K={{ solver.k }})</span>
+                            <div>
+                                <h6 class="mb-0 fw-semibold text-success">
+                                    {% set gustari = solver.alege_suplimente_k(z) %}
+                                    {% for g in gustari %}
+                                        {{ g.nume }}{% if not loop.last %}, {% endif %}
+                                    {% endfor %}
+                                </h6>
+                                <small class="text-muted">Alimente sigure adăugate pentru compensarea micronutrienților deficitari.</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+            
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
