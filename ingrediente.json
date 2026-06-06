@@ -1,0 +1,980 @@
+[
+  {
+    "id": 1,
+    "fdcId_original": 2705385,
+    "nume": "Milk, whole",
+    "nutrienti_per_100g": { "energie_kcal": 61.0, "proteine_g": 3.27, "grasimi_g": 3.2, "carbohidrati_g": 4.63, "calciu_mg": 123.0, "vitamina_c_mg": 0.0, "fier_mg": 0.2 },
+    "pret_mediu_per_100g": 0.65,
+    "disponibilitate": 5,
+    "alergeni": ["lactoza", "lapte"]
+  },
+  {
+    "id": 2,
+    "fdcId_original": 2705394,
+    "nume": "Kefir",
+    "nutrienti_per_100g": { "energie_kcal": 52.0, "proteine_g": 3.59, "grasimi_g": 0.96, "carbohidrati_g": 7.48, "calciu_mg": 124.0, "vitamina_c_mg": 0.0, "fier_mg": 0.2 },
+    "pret_mediu_per_100g": 0.85,
+    "disponibilitate": 4,
+    "alergeni": ["lactoza", "lapte"]
+  },
+  {
+    "id": 3,
+    "fdcId_original": 2705421,
+    "nume": "Yogurt, Greek, plain",
+    "nutrienti_per_100g": { "energie_kcal": 67.0, "proteine_g": 10.2, "grasimi_g": 1.36, "carbohidrati_g": 3.6, "calciu_mg": 110.0, "vitamina_c_mg": 0.0, "fier_mg": 0.2 },
+    "pret_mediu_per_100g": 1.2,
+    "disponibilitate": 5,
+    "alergeni": ["lactoza", "lapte"]
+  },
+  {
+    "id": 4,
+    "fdcId_original": 2705452,
+    "nume": "Frozen yogurt, vanilla",
+    "nutrienti_per_100g": { "energie_kcal": 127.0, "proteine_g": 3.0, "grasimi_g": 3.6, "carbohidrati_g": 21.6, "calciu_mg": 100.0, "vitamina_c_mg": 0.0, "fier_mg": 0.2 },
+    "pret_mediu_per_100g": 2.5,
+    "disponibilitate": 4,
+    "alergeni": ["lactoza", "lapte", "zahar_adaugat"]
+  },
+  {
+    "id": 5,
+    "fdcId_original": 2705472,
+    "nume": "Hot chocolate / cocoa",
+    "nutrienti_per_100g": { "energie_kcal": 72.0, "proteine_g": 1.82, "grasimi_g": 1.04, "carbohidrati_g": 13.9, "calciu_mg": 61.0, "vitamina_c_mg": 0.0, "fier_mg": 0.2 },
+    "pret_mediu_per_100g": 1.5,
+    "disponibilitate": 5,
+    "alergeni": ["lactoza", "lapte", "cacao"]
+  },
+  {
+    "id": 6,
+    "fdcId_original": 2705824,
+    "nume": "Beef, steak",
+    "nutrienti_per_100g": { "energie_kcal": 229.0, "proteine_g": 27.0, "grasimi_g": 12.9, "carbohidrati_g": 0.0, "calciu_mg": 16.0, "vitamina_c_mg": 0.0, "fier_mg": 3.5 },
+    "pret_mediu_per_100g": 6.5,
+    "disponibilitate": 4,
+    "alergeni": []
+  },
+  {
+    "id": 7,
+    "fdcId_original": 2705862,
+    "nume": "Pork, NFS",
+    "nutrienti_per_100g": { "energie_kcal": 192.0, "proteine_g": 27.1, "grasimi_g": 8.67, "carbohidrati_g": 0.0, "calciu_mg": 10.0, "vitamina_c_mg": 0.0, "fier_mg": 2.0 },
+    "pret_mediu_per_100g": 3.8,
+    "disponibilitate": 5,
+    "alergeni": []
+  },
+  {
+    "id": 8,
+    "fdcId_original": 2705879,
+    "nume": "Ham, prosciutto",
+    "nutrienti_per_100g": { "energie_kcal": 195.0, "proteine_g": 27.8, "grasimi_g": 8.32, "carbohidrati_g": 0.3, "calciu_mg": 10.0, "vitamina_c_mg": 0.0, "fier_mg": 2.0 },
+    "pret_mediu_per_100g": 12.0,
+    "disponibilitate": 3,
+    "alergeni": ["sodiu_ridicat"]
+  },
+  {
+    "id": 9,
+    "fdcId_original": 2705953,
+    "nume": "Chicken breast, boneless, skinless",
+    "nutrienti_per_100g": { "energie_kcal": 175.0, "proteine_g": 26.4, "grasimi_g": 7.67, "carbohidrati_g": 0.09, "calciu_mg": 16.0, "vitamina_c_mg": 0.0, "fier_mg": 1.1 },
+    "pret_mediu_per_100g": 3.2,
+    "disponibilitate": 5,
+    "alergeni": []
+  },
+  {
+    "id": 10,
+    "fdcId_original": 2706109,
+    "nume": "Turkey, roasted",
+    "nutrienti_per_100g": { "energie_kcal": 139.0, "proteine_g": 28.8, "grasimi_g": 2.06, "carbohidrati_g": 0.0, "calciu_mg": 11.0, "vitamina_c_mg": 0.0, "fier_mg": 1.1 },
+    "pret_mediu_per_100g": 4.5,
+    "disponibilitate": 4,
+    "alergeni": []
+  },
+  {
+    "id": 11,
+    "fdcId_original": 2706245,
+    "nume": "Fish, cod, steamed",
+    "nutrienti_per_100g": { "energie_kcal": 87.0, "proteine_g": 19.3, "grasimi_g": 0.52, "carbohidrati_g": 0.0, "calciu_mg": 10.0, "vitamina_c_mg": 0.0, "fier_mg": 1.1 },
+    "pret_mediu_per_100g": 5.8,
+    "disponibilitate": 3,
+    "alergeni": ["peste"]
+  },
+  {
+    "id": 12,
+    "fdcId_original": 2706286,
+    "nume": "Fish, salmon, sockeye, wild caught, raw",
+    "nutrienti_per_100g": { "energie_kcal": 274.0, "proteine_g": 25.4, "grasimi_g": 18.4, "carbohidrati_g": 0.01, "calciu_mg": 11.0, "vitamina_c_mg": 0.0, "fier_mg": 1.1 },
+    "pret_mediu_per_100g": 9.5,
+    "disponibilitate": 4,
+    "alergeni": ["peste"]
+  },
+  {
+    "id": 13,
+    "fdcId_original": 2706438,
+    "nume": "Chicken curry with rice",
+    "nutrienti_per_100g": { "energie_kcal": 116.0, "proteine_g": 4.96, "grasimi_g": 4.0, "carbohidrati_g": 15.1, "calciu_mg": 16.0, "vitamina_c_mg": 0.0, "fier_mg": 1.1 },
+    "pret_mediu_per_100g": 2.8,
+    "disponibilitate": 5,
+    "alergeni": ["condimente_curry"]
+  },
+  {
+    "id": 14,
+    "fdcId_original": 2706465,
+    "nume": "Shrimp in garlic sauce",
+    "nutrienti_per_100g": { "energie_kcal": 281.0, "proteine_g": 11.6, "grasimi_g": 25.0, "carbohidrati_g": 2.45, "calciu_mg": 52.0, "vitamina_c_mg": 0.0, "fier_mg": 1.1 },
+    "pret_mediu_per_100g": 11.0,
+    "disponibilitate": 3,
+    "alergeni": ["fructe_de_mare"]
+  },
+  {
+    "id": 15,
+    "fdcId_original": 2707612,
+    "nume": "Focaccia, Italian, plain",
+    "nutrienti_per_100g": { "energie_kcal": 249.0, "proteine_g": 8.77, "grasimi_g": 7.89, "carbohidrati_g": 35.8, "calciu_mg": 35.0, "vitamina_c_mg": 0.0, "fier_mg": 0.2 },
+    "pret_mediu_per_100g": 0.9,
+    "disponibilitate": 5,
+    "alergeni": ["gluten"]
+  },
+  {
+    "id": 16,
+    "fdcId_original": 2709384,
+    "nume": "Potato, baked, peel not eaten",
+    "nutrienti_per_100g": { "energie_kcal": 93.0, "proteine_g": 1.95, "grasimi_g": 0.1, "carbohidrati_g": 21.4, "calciu_mg": 5.0, "vitamina_c_mg": 15.0, "fier_mg": 0.2 },
+    "pret_mediu_per_100g": 0.45,
+    "disponibilitate": 5,
+    "alergeni": []
+  },
+  {
+    "id": 17,
+    "fdcId_original": 2709385,
+    "nume": "Potato, boiled, NFS",
+    "nutrienti_per_100g": { "energie_kcal": 126.0, "proteine_g": 1.87, "grasimi_g": 4.25, "carbohidrati_g": 20.4, "calciu_mg": 5.0, "vitamina_c_mg": 15.0, "fier_mg": 0.2 },
+    "pret_mediu_per_100g": 0.40,
+    "disponibilitate": 5,
+    "alergeni": []
+  },
+  {
+    "id": 18,
+    "fdcId_original": 2710084,
+    "nume": "Mushrooms, pickled",
+    "nutrienti_per_100g": { "energie_kcal": 46.0, "proteine_g": 2.4, "grasimi_g": 0.3, "carbohidrati_g": 8.29, "calciu_mg": 6.0, "vitamina_c_mg": 0.0, "fier_mg": 0.2 },
+    "pret_mediu_per_100g": 2.5,
+    "disponibilitate": 4,
+    "alergeni": []
+  },
+  {
+    "id": 19,
+    "fdcId_original": 2710105,
+    "nume": "Mustard",
+    "nutrienti_per_100g": { "energie_kcal": 69.0, "proteine_g": 4.25, "grasimi_g": 3.38, "carbohidrati_g": 5.3, "calciu_mg": 63.0, "vitamina_c_mg": 0.0, "fier_mg": 0.2 },
+    "pret_mediu_per_100g": 1.1,
+    "disponibilitate": 5,
+    "alergeni": ["mustar"]
+  },
+  {
+    "id": 20,
+    "fdcId_original": 2710089,
+    "nume": "Olives, green",
+    "nutrienti_per_100g": { "energie_kcal": 145.0, "proteine_g": 1.03, "grasimi_g": 15.3, "carbohidrati_g": 3.84, "calciu_mg": 52.0, "vitamina_c_mg": 0.0, "fier_mg": 0.2 },
+    "pret_mediu_per_100g": 3.2,
+    "disponibilitate": 5,
+    "alergeni": []
+  },
+  {
+    "id": 21,
+    "fdcId_original": 2710090,
+    "nume": "Olives, black",
+    "nutrienti_per_100g": { "energie_kcal": 116.0, "proteine_g": 0.84, "grasimi_g": 10.9, "carbohidrati_g": 6.04, "calciu_mg": 88.0, "vitamina_c_mg": 0.0, "fier_mg": 0.2 },
+    "pret_mediu_per_100g": 3.5,
+    "disponibilitate": 5,
+    "alergeni": []
+  },
+  {
+    "id": 22,
+    "fdcId_original": 2710104,
+    "nume": "Zucchini, pickled",
+    "nutrienti_per_100g": { "energie_kcal": 35.0, "proteine_g": 1.0, "grasimi_g": 0.28, "carbohidrati_g": 7.44, "calciu_mg": 15.0, "vitamina_c_mg": 15.0, "fier_mg": 0.2 },
+    "pret_mediu_per_100g": 1.8,
+    "disponibilitate": 4,
+    "alergeni": []
+  },
+  {
+    "id": 23,
+    "fdcId_original": 2710105,
+    "nume": "Soup, borscht",
+    "nutrienti_per_100g": { "energie_kcal": 20.0, "proteine_g": 0.52, "grasimi_g": 0.37, "carbohidrati_g": 3.9, "calciu_mg": 11.0, "vitamina_c_mg": 15.0, "fier_mg": 0.2 },
+    "pret_mediu_per_100g": 1.5,
+    "disponibilitate": 5,
+    "alergeni": []
+  },
+  {
+    "id": 24,
+    "fdcId_original": 2710109,
+    "nume": "Soup, cream of vegetable",
+    "nutrienti_per_100g": { "energie_kcal": 78.0, "proteine_g": 1.41, "grasimi_g": 4.72, "carbohidrati_g": 7.83, "calciu_mg": 19.0, "vitamina_c_mg": 15.0, "fier_mg": 0.2 },
+    "pret_mediu_per_100g": 1.5,
+    "disponibilitate": 5,
+    "alergeni": ["lapte", "țelină"]
+  },
+  {
+    "id": 25,
+    "fdcId_original": 2707547,
+    "nume": "Soup, peanut",
+    "nutrienti_per_100g": { "energie_kcal": 88.0, "proteine_g": 3.24, "grasimi_g": 5.29, "carbohidrati_g": 8.36, "calciu_mg": 18.0, "vitamina_c_mg": 0.0, "fier_mg": 0.2 },
+    "pret_mediu_per_100g": 2.0,
+    "disponibilitate": 4,
+    "alergeni": ["arahide"]
+  },
+  {
+    "id": 26,
+    "fdcId_original": 2707548,
+    "nume": "Gravy, vegetarian",
+    "nutrienti_per_100g": { "energie_kcal": 144.0, "proteine_g": 3.84, "grasimi_g": 10.2, "carbohidrati_g": 9.21, "calciu_mg": 121.0, "vitamina_c_mg": 0.0, "fier_mg": 0.2 },
+    "pret_mediu_per_100g": 1.2,
+    "disponibilitate": 5,
+    "alergeni": ["gluten"]
+  },
+  {
+    "id": 27,
+    "fdcId_original": 2707627,
+    "nume": "Garlic bread, from fast food / restaurant",
+    "nutrienti_per_100g": { "energie_kcal": 349.0, "proteine_g": 8.34, "grasimi_g": 16.6, "carbohidrati_g": 41.6, "calciu_mg": 27.0, "vitamina_c_mg": 0.0, "fier_mg": 0.2 },
+    "pret_mediu_per_100g": 2.5,
+    "disponibilitate": 4,
+    "alergeni": ["gluten", "lapte"]
+  },
+  {
+    "id": 28,
+    "fdcId_original": 2707995,
+    "nume": "Pie, apple",
+    "nutrienti_per_100g": { "energie_kcal": 296.0, "proteine_g": 2.7, "grasimi_g": 15.3, "carbohidrati_g": 37.6, "calciu_mg": 11.0, "vitamina_c_mg": 15.0, "fier_mg": 0.2 },
+    "pret_mediu_per_100g": 3.0,
+    "disponibilitate": 3,
+    "alergeni": ["gluten"]
+  },
+  {
+    "id": 29,
+    "nume": "Avocado, Hass, peeled, raw",
+    "nutrienti_per_100g": { "energie_kcal": 160.0, "proteine_g": 2.0, "grasimi_g": 14.7, "carbohidrati_g": 8.53, "calciu_mg": 12.0, "vitamina_c_mg": 15.0, "fier_mg": 0.2 },
+    "pret_mediu_per_100g": 4.5,
+    "disponibilitate": 4,
+    "alergeni": []
+  },
+  {
+    "id": 30,
+    "fdcId_original": 2709224,
+    "nume": "Banana, raw",
+    "nutrienti_per_100g": { "energie_kcal": 97.0, "proteine_g": 0.74, "grasimi_g": 0.28, "carbohidrati_g": 22.7, "calciu_mg": 5.0, "vitamina_c_mg": 15.0, "fier_mg": 0.2 },
+    "pret_mediu_per_100g": 0.8,
+    "disponibilitate": 5,
+    "alergeni": []
+  },
+  {
+    "id": 31,
+    "fdcId_original": 2709244,
+    "nume": "Mango, congelat",
+    "nutrienti_per_100g": { "energie_kcal": 60.0, "proteine_g": 0.82, "grasimi_g": 0.38, "carbohidrati_g": 15.0, "calciu_mg": 11.0, "vitamina_c_mg": 15.0, "fier_mg": 0.2 },
+    "pret_mediu_per_100g": 3.2,
+    "disponibilitate": 3,
+    "alergeni": []
+  },
+  {
+    "id": 32,
+    "fdcId_original": 2709245,
+    "nume": "Nectarine, crude",
+    "nutrienti_per_100g": { "energie_kcal": 43.0, "proteine_g": 1.06, "grasimi_g": 0.28, "carbohidrati_g": 9.18, "calciu_mg": 2.0, "vitamina_c_mg": 15.0, "fier_mg": 0.2 },
+    "pret_mediu_per_100g": 1.5,
+    "disponibilitate": 4,
+    "alergeni": []
+  },
+  {
+    "id": 33,
+    "fdcId_original": 2705393,
+    "nume": "Buttermilk (Lapte bătut)",
+    "nutrienti_per_100g": { "energie_kcal": 43.0, "proteine_g": 3.46, "grasimi_g": 1.08, "carbohidrati_g": 4.81, "calciu_mg": 120.0, "vitamina_c_mg": 0.0, "fier_mg": 0.2 },
+    "pret_mediu_per_100g": 0.5,
+    "disponibilitate": 5,
+    "alergeni": ["lactoza", "lapte"]
+  },
+  {
+    "id": 34,
+    "nume": "Egg, whole, cooked",
+    "nutrienti_per_100g": { "energie_kcal": 176.0, "proteine_g": 11.8, "grasimi_g": 13.9, "carbohidrati_g": 0.92, "calciu_mg": 46.0, "vitamina_c_mg": 0.0, "fier_mg": 0.2 },
+    "pret_mediu_per_100g": 1.8,
+    "disponibilitate": 5,
+    "alergeni": ["oua"]
+  },
+  {
+    "id": 35,
+    "fdcId_original": 2707154,
+    "nume": "Egg, boiled or poached",
+    "nutrienti_per_100g": { "energie_kcal": 143.0, "proteine_g": 12.4, "grasimi_g": 9.96, "carbohidrati_g": 0.96, "calciu_mg": 48.0, "vitamina_c_mg": 0.0, "fier_mg": 0.2 },
+    "pret_mediu_per_100g": 1.8,
+    "disponibilitate": 5,
+    "alergeni": ["oua"]
+  },
+  {
+    "id": 36,
+    "fdcId_original": 2707155,
+    "nume": "Egg, fried",
+    "nutrienti_per_100g": { "energie_kcal": 185.0, "proteine_g": 11.6, "grasimi_g": 15.0, "carbohidrati_g": 0.91, "calciu_mg": 46.0, "vitamina_c_mg": 0.0, "fier_mg": 0.2 },
+    "pret_mediu_per_100g": 1.8,
+    "disponibilitate": 5,
+    "alergeni": ["oua"]
+  },
+  {
+    "id": 37,
+    "nume": "Salată de fructe (fără citrice)",
+    "nutrienti_per_100g": { "energie_kcal": 59.0, "proteine_g": 0.64, "grasimi_g": 0.21, "carbohidrati_g": 13.9, "calciu_mg": 9.0, "vitamina_c_mg": 15.0, "fier_mg": 0.2 },
+    "pret_mediu_per_100g": 1.2,
+    "disponibilitate": 5,
+    "alergeni": []
+  },
+  {
+    "id": 38,
+    "fdcId_original": 2709288,
+    "nume": "Salată de fructe (cu citrice)",
+    "nutrienti_per_100g": { "energie_kcal": 56.0, "proteine_g": 0.71, "grasimi_g": 0.19, "carbohidrati_g": 13.5, "calciu_mg": 16.0, "vitamina_c_mg": 15.0, "fier_mg": 0.2 },
+    "pret_mediu_per_100g": 1.1,
+    "disponibilitate": 5,
+    "alergeni": []
+  },
+  {
+    "id": 39,
+    "fdcId_original": 2706839,
+    "nume": "Salată de ton cu brânză",
+    "nutrienti_per_100g": { "energie_kcal": 214.0, "proteine_g": 11.3, "grasimi_g": 17.6, "carbohidrati_g": 2.85, "calciu_mg": 87.0, "vitamina_c_mg": 0.0, "fier_mg": 1.1 },
+    "pret_mediu_per_100g": 4.5,
+    "disponibilitate": 5,
+    "alergeni": ["peste", "lactoza", "lapte"]
+  },
+  {
+    "id": 40,
+    "fdcId_original": 2706840,
+    "nume": "Salată de ton cu ou",
+    "nutrienti_per_100g": { "energie_kcal": 190.0, "proteine_g": 10.3, "grasimi_g": 15.4, "carbohidrati_g": 2.74, "calciu_mg": 24.0, "vitamina_c_mg": 0.0, "fier_mg": 1.1 },
+    "pret_mediu_per_100g": 4.2,
+    "disponibilitate": 5,
+    "alergeni": ["peste", "oua"]
+  },
+  {
+    "id": 41,
+    "fdcId_original": 2706841,
+    "nume": "Salată Garden cu creveți și ou",
+    "nutrienti_per_100g": { "energie_kcal": 65.0, "proteine_g": 8.28, "grasimi_g": 2.04, "carbohidrati_g": 2.77, "calciu_mg": 67.0, "vitamina_c_mg": 0.0, "fier_mg": 1.1 },
+    "pret_mediu_per_100g": 7.5,
+    "disponibilitate": 4,
+    "alergeni": ["fructe_de_mare", "oua"]
+  },
+  {
+    "id": 42,
+    "nume": "Oats, whole grain, rolled, old fashioned",
+    "nutrienti_per_100g": { "energie_kcal": 379.0, "proteine_g": 13.1, "grasimi_g": 6.5, "carbohidrati_g": 67.7, "calciu_mg": 52.0, "vitamina_c_mg": 0.0, "fier_mg": 3.0 },
+    "pret_mediu_per_100g": 1.2,
+    "disponibilitate": 5,
+    "alergeni": ["gluten_urme"]
+  },
+  {
+    "id": 43,
+    "fdcId_original": 2700043,
+    "nume": "Figs, dried, uncooked",
+    "nutrienti_per_100g": { "energie_kcal": 249.0, "proteine_g": 3.3, "grasimi_g": 0.9, "carbohidrati_g": 63.9, "calciu_mg": 162.0, "vitamina_c_mg": 15.0, "fier_mg": 0.2 },
+    "pret_mediu_per_100g": 4.5,
+    "disponibilitate": 3,
+    "alergeni": []
+  },
+  {
+    "id": 44,
+    "fdcId_original": 2700044,
+    "nume": "Yogurt, Greek, strawberry, nonfat",
+    "nutrienti_per_100g": { "energie_kcal": 82.0, "proteine_g": 8.2, "grasimi_g": 0.0, "carbohidrati_g": 12.0, "calciu_mg": 100.0, "vitamina_c_mg": 15.0, "fier_mg": 0.2 },
+    "pret_mediu_per_100g": 1.8,
+    "disponibilitate": 5,
+    "alergeni": ["lactoza", "lapte", "capsuni"]
+  },
+  {
+    "id": 45,
+    "nume": "Blueberries, raw",
+    "nutrienti_per_100g": { "energie_kcal": 57.0, "proteine_g": 0.7, "grasimi_g": 0.3, "carbohidrati_g": 14.5, "calciu_mg": 6.0, "vitamina_c_mg": 15.0, "fier_mg": 0.2 },
+    "pret_mediu_per_100g": 5.0,
+    "disponibilitate": 4,
+    "alergeni": []
+  },
+  {
+    "id": 46,
+    "fdcId_original": 2700046,
+    "nume": "Milk, whole, 3.25% milkfat, with added vitamin D",
+    "nutrienti_per_100g": { "energie_kcal": 61.0, "proteine_g": 3.2, "grasimi_g": 3.3, "carbohidrati_g": 4.8, "calciu_mg": 120.0, "vitamina_c_mg": 0.0, "fier_mg": 0.2 },
+    "pret_mediu_per_100g": 0.7,
+    "disponibilitate": 5,
+    "alergeni": ["lactoza", "lapte"]
+  }, 
+  {
+    "id": 47,
+    "nume": "Eggs, Grade A, Large, egg whole",
+    "nutrienti_per_100g": { "energie_kcal": 143.0, "proteine_g": 12.6, "grasimi_g": 9.5, "carbohidrati_g": 0.7, "calciu_mg": 56.0, "vitamina_c_mg": 0.0, "fier_mg": 0.2 },
+    "pret_mediu_per_100g": 1.5,
+    "disponibilitate": 5,
+    "alergeni": ["oua"]
+  },
+  {
+    "id": 48,
+    "nume": "Spinach, baby",
+    "nutrienti_per_100g": { "energie_kcal": 23.0, "proteine_g": 2.9, "grasimi_g": 0.4, "carbohidrati_g": 3.6, "calciu_mg": 99.0, "vitamina_c_mg": 15.0, "fier_mg": 2.7 },
+    "pret_mediu_per_100g": 3.5,
+    "disponibilitate": 4,
+    "alergeni": []
+  },
+  {
+    "id": 49,
+    "nume": "Cheese, mozzarella, low moisture, part-skim",
+    "nutrienti_per_100g": { "energie_kcal": 295.0, "proteine_g": 23.8, "grasimi_g": 19.8, "carbohidrati_g": 3.9, "calciu_mg": 731.0, "vitamina_c_mg": 0.0, "fier_mg": 0.2 },
+    "pret_mediu_per_100g": 4.2,
+    "disponibilitate": 5,
+    "alergeni": ["lactoza", "lapte"]
+  },
+  {
+    "id": 50,
+    "nume": "Lettuce, romaine, green, raw",
+    "nutrienti_per_100g": { "energie_kcal": 17.0, "proteine_g": 1.2, "grasimi_g": 0.3, "carbohidrati_g": 3.3, "calciu_mg": 33.0, "vitamina_c_mg": 15.0, "fier_mg": 0.2 },
+    "pret_mediu_per_100g": 1.2,
+    "disponibilitate": 5,
+    "alergeni": []
+  },
+  {
+    "id": 51,
+    "nume": "Broccoli, raw",
+    "nutrienti_per_100g": { "energie_kcal": 34.0, "proteine_g": 2.8, "grasimi_g": 0.4, "carbohidrati_g": 6.6, "calciu_mg": 47.0, "vitamina_c_mg": 45.0, "fier_mg": 0.2 },
+    "pret_mediu_per_100g": 2.8,
+    "disponibilitate": 5,
+    "alergeni": []
+  },
+  {
+    "id": 52,
+    "nume": "Oil, olive, extra virgin",
+    "nutrienti_per_100g": { "energie_kcal": 884.0, "proteine_g": 0.0, "grasimi_g": 100.0, "carbohidrati_g": 0.0, "calciu_mg": 1.0, "vitamina_c_mg": 0.0, "fier_mg": 0.2 },
+    "pret_mediu_per_100g": 8.5,
+    "disponibilitate": 5,
+    "alergeni": []
+  },
+  {
+    "id": 53,
+    "nume": "Hummus, commercial",
+    "nutrienti_per_100g": { "energie_kcal": 166.0, "proteine_g": 7.9, "grasimi_g": 9.6, "carbohidrati_g": 14.3, "calciu_mg": 38.0, "vitamina_c_mg": 0.0, "fier_mg": 0.2 },
+    "pret_mediu_per_100g": 4.2,
+    "disponibilitate": 4,
+    "alergeni": ["susan"]
+  },
+  {
+    "id": 54,
+    "nume": "Tomatoes, grape, raw",
+    "nutrienti_per_100g": { "energie_kcal": 18.0, "proteine_g": 0.9, "grasimi_g": 0.2, "carbohidrati_g": 3.9, "calciu_mg": 10.0, "vitamina_c_mg": 15.0, "fier_mg": 0.2 },
+    "pret_mediu_per_100g": 3.0,
+    "disponibilitate": 5,
+    "alergeni": []
+  },
+  {
+    "id": 55,
+    "nume": "Cucumber, with peel, raw",
+    "nutrienti_per_100g": { "energie_kcal": 15.0, "proteine_g": 0.7, "grasimi_g": 0.1, "carbohidrati_g": 3.6, "calciu_mg": 16.0, "vitamina_c_mg": 15.0, "fier_mg": 0.2 },
+    "pret_mediu_per_100g": 1.5,
+    "disponibilitate": 5,
+    "alergeni": []
+  },
+  {
+    "id": 56,
+    "nume": "Strawberries, raw",
+    "nutrienti_per_100g": { "energie_kcal": 32.0, "proteine_g": 0.7, "grasimi_g": 0.3, "carbohidrati_g": 7.7, "calciu_mg": 16.0, "vitamina_c_mg": 15.0, "fier_mg": 0.2 },
+    "pret_mediu_per_100g": 6.0,
+    "disponibilitate": 3,
+    "alergeni": ["capsuni"]
+  },
+  {
+    "id": 57,
+    "nume": "Nuts, almonds, whole, raw",
+    "nutrienti_per_100g": { "energie_kcal": 579.0, "proteine_g": 21.2, "grasimi_g": 49.9, "carbohidrati_g": 21.6, "calciu_mg": 269.0, "vitamina_c_mg": 0.0, "fier_mg": 3.0 },
+    "pret_mediu_per_100g": 9.0,
+    "disponibilitate": 5,
+    "alergeni": ["nuci"]
+  },
+  {
+    "id": 58,
+    "nume": "Beef, loin, tenderloin roast, separable lean only",
+    "nutrienti_per_100g": { "energie_kcal": 182.0, "proteine_g": 26.0, "grasimi_g": 8.0, "carbohidrati_g": 0.0, "calciu_mg": 12.0, "vitamina_c_mg": 0.0, "fier_mg": 3.5 },
+    "pret_mediu_per_100g": 18.0,
+    "disponibilitate": 3,
+    "alergeni": []
+  },
+  {
+    "id": 59,
+    "nume": "Asparagus, green, raw",
+    "nutrienti_per_100g": { "energie_kcal": 20.0, "proteine_g": 2.2, "grasimi_g": 0.1, "carbohidrati_g": 3.9, "calciu_mg": 24.0, "vitamina_c_mg": 15.0, "fier_mg": 0.2 },
+    "pret_mediu_per_100g": 12.0,
+    "disponibilitate": 4,
+    "alergeni": []
+  },
+  {
+    "id": 60,
+    "nume": "Butter, stick, salted",
+    "nutrienti_per_100g": { "energie_kcal": 717.0, "proteine_g": 0.9, "grasimi_g": 81.1, "carbohidrati_g": 0.1, "calciu_mg": 24.0, "vitamina_c_mg": 0.0, "fier_mg": 0.2 },
+    "pret_mediu_per_100g": 5.5,
+    "disponibilitate": 5,
+    "alergeni": ["lactoza", "lapte"]
+  },
+  {
+    "id": 61,
+    "nume": "Fish, tuna, light, canned in water",
+    "nutrienti_per_100g": { "energie_kcal": 86.0, "proteine_g": 19.4, "grasimi_g": 1.0, "carbohidrati_g": 0.0, "calciu_mg": 11.0, "vitamina_c_mg": 0.0, "fier_mg": 1.1 },
+    "pret_mediu_per_100g": 6.5,
+    "disponibilitate": 5,
+    "alergeni": ["peste"]
+  },
+  {
+    "id": 62,
+    "nume": "Celery, raw",
+    "nutrienti_per_100g": { "energie_kcal": 14.0, "proteine_g": 0.7, "grasimi_g": 0.2, "carbohidrati_g": 3.0, "calciu_mg": 40.0, "vitamina_c_mg": 15.0, "fier_mg": 0.2 },
+    "pret_mediu_per_100g": 2.5,
+    "disponibilitate": 5,
+    "alergeni": ["telina"]
+  },
+  {
+    "id": 63,
+    "nume": "Onions, red, raw",
+    "nutrienti_per_100g": { "energie_kcal": 40.0, "proteine_g": 1.1, "grasimi_g": 0.1, "carbohidrati_g": 9.3, "calciu_mg": 23.0, "vitamina_c_mg": 15.0, "fier_mg": 0.2 },
+    "pret_mediu_per_100g": 1.8,
+    "disponibilitate": 5,
+    "alergeni": []
+  },
+  {
+    "id": 64,
+    "nume": "Peppers, bell, red, raw",
+    "nutrienti_per_100g": { "energie_kcal": 31.0, "proteine_g": 1.0, "grasimi_g": 0.3, "carbohidrati_g": 6.0, "calciu_mg": 7.0, "vitamina_c_mg": 45.0, "fier_mg": 0.2 },
+    "pret_mediu_per_100g": 3.2,
+    "disponibilitate": 5,
+    "alergeni": []
+  },
+  {
+    "id": 65,
+    "nume": "Oil, canola",
+    "nutrienti_per_100g": { "energie_kcal": 884.0, "proteine_g": 0.0, "grasimi_g": 100.0, "carbohidrati_g": 0.0, "calciu_mg": 0.0, "vitamina_c_mg": 0.0, "fier_mg": 0.2 },
+    "pret_mediu_per_100g": 1.5,
+    "disponibilitate": 5,
+    "alergeni": []
+  },
+  {
+    "id": 66,
+    "nume": "Sauce, pasta, spaghetti/marinara",
+    "nutrienti_per_100g": { "energie_kcal": 66.0, "proteine_g": 1.5, "grasimi_g": 1.4, "carbohidrati_g": 10.3, "calciu_mg": 14.0, "vitamina_c_mg": 15.0, "fier_mg": 0.2 },
+    "pret_mediu_per_100g": 2.8,
+    "disponibilitate": 5,
+    "alergeni": []
+  },
+  {
+    "id": 67,
+    "nume": "Cheese, parmesan, grated",
+    "nutrienti_per_100g": { "energie_kcal": 415.0, "proteine_g": 35.8, "grasimi_g": 28.6, "carbohidrati_g": 13.9, "calciu_mg": 1184.0, "vitamina_c_mg": 0.0, "fier_mg": 0.2 },
+    "pret_mediu_per_100g": 12.0,
+    "disponibilitate": 4,
+    "alergeni": ["lactoza", "lapte"]
+  },
+  {
+    "id": 68,
+    "nume": "Flour, wheat, all-purpose",
+    "nutrienti_per_100g": { "energie_kcal": 364.0, "proteine_g": 10.3, "grasimi_g": 1.0, "carbohidrati_g": 76.3, "calciu_mg": 15.0, "vitamina_c_mg": 0.0, "fier_mg": 0.2 },
+    "pret_mediu_per_100g": 0.5,
+    "disponibilitate": 5,
+    "alergeni": ["gluten"]
+  },
+  {
+    "id": 69,
+    "nume": "Cottage cheese, full fat",
+    "nutrienti_per_100g": { "energie_kcal": 98.0, "proteine_g": 11.1, "grasimi_g": 4.3, "carbohidrati_g": 3.4, "calciu_mg": 83.0, "vitamina_c_mg": 0.0, "fier_mg": 0.2 },
+    "pret_mediu_per_100g": 2.5,
+    "disponibilitate": 5,
+    "alergeni": ["lactoza", "lapte"]
+  },
+  {
+    "id": 70,
+    "nume": "Pineapple, raw",
+    "nutrienti_per_100g": { "energie_kcal": 50.0, "proteine_g": 0.5, "grasimi_g": 0.1, "carbohidrati_g": 13.1, "calciu_mg": 13.0, "vitamina_c_mg": 15.0, "fier_mg": 0.2 },
+    "pret_mediu_per_100g": 4.0,
+    "disponibilitate": 4,
+    "alergeni": []
+  },
+  {
+    "id": 71,
+    "nume": "Fish, cod, Atlantic, wild caught, raw",
+    "nutrienti_per_100g": { "energie_kcal": 82.0, "proteine_g": 17.8, "grasimi_g": 0.7, "carbohidrati_g": 0.0, "calciu_mg": 16.0, "vitamina_c_mg": 0.0, "fier_mg": 1.1 },
+    "pret_mediu_per_100g": 8.5,
+    "disponibilitate": 3,
+    "alergeni": ["peste"]
+  },
+  {
+    "id": 72,
+    "nume": "Carrots, mature, raw",
+    "nutrienti_per_100g": { "energie_kcal": 41.0, "proteine_g": 0.9, "grasimi_g": 0.2, "carbohidrati_g": 9.6, "calciu_mg": 33.0, "vitamina_c_mg": 15.0, "fier_mg": 0.2 },
+    "pret_mediu_per_100g": 1.2,
+    "disponibilitate": 5,
+    "alergeni": []
+  },
+  {
+    "id": 73,
+    "nume": "Butter, stick, unsalted",
+    "nutrienti_per_100g": { "energie_kcal": 717.0, "proteine_g": 0.9, "grasimi_g": 81.1, "carbohidrati_g": 0.1, "calciu_mg": 24.0, "vitamina_c_mg": 0.0, "fier_mg": 0.2 },
+    "pret_mediu_per_100g": 5.5,
+    "disponibilitate": 5,
+    "alergeni": ["lactoza", "lapte"]
+  },
+  {
+    "id": 74,
+    "nume": "Kale, raw",
+    "nutrienti_per_100g": { "energie_kcal": 35.0, "proteine_g": 2.9, "grasimi_g": 1.5, "carbohidrati_g": 4.4, "calciu_mg": 254.0, "vitamina_c_mg": 45.0, "fier_mg": 2.7 },
+    "pret_mediu_per_100g": 5.0,
+    "disponibilitate": 3,
+    "alergeni": []
+  },
+  {
+    "id": 75,
+    "nume": "Seeds, sunflower seed, kernel, raw",
+    "nutrienti_per_100g": { "energie_kcal": 584.0, "proteine_g": 20.8, "grasimi_g": 51.5, "carbohidrati_g": 20.0, "calciu_mg": 78.0, "vitamina_c_mg": 0.0, "fier_mg": 3.0 },
+    "pret_mediu_per_100g": 3.5,
+    "disponibilitate": 5,
+    "alergeni": []
+  },
+  {
+    "id": 76,
+    "nume": "Cheese, feta, whole milk",
+    "nutrienti_per_100g": { "energie_kcal": 264.0, "proteine_g": 14.2, "grasimi_g": 21.3, "carbohidrati_g": 4.1, "calciu_mg": 493.0, "vitamina_c_mg": 0.0, "fier_mg": 0.2 },
+    "pret_mediu_per_100g": 6.8,
+    "disponibilitate": 4,
+    "alergeni": ["lactoza", "lapte"]
+  },
+  {
+    "id": 77,
+    "nume": "Turkey, ground, 93% lean, 7% fat",
+    "nutrienti_per_100g": { "energie_kcal": 150.0, "proteine_g": 18.6, "grasimi_g": 8.3, "carbohidrati_g": 0.0, "calciu_mg": 14.0, "vitamina_c_mg": 0.0, "fier_mg": 1.1 },
+    "pret_mediu_per_100g": 4.8,
+    "disponibilitate": 4,
+    "alergeni": []
+  },
+  {
+    "id": 78,
+    "nume": "Squash, summer, green, zucchini",
+    "nutrienti_per_100g": { "energie_kcal": 17.0, "proteine_g": 1.2, "grasimi_g": 0.3, "carbohidrati_g": 3.1, "calciu_mg": 16.0, "vitamina_c_mg": 15.0, "fier_mg": 0.2 },
+    "pret_mediu_per_100g": 1.5,
+    "disponibilitate": 5,
+    "alergeni": []
+  },
+  {
+    "id": 79,
+    "nume": "Garlic, raw",
+    "nutrienti_per_100g": { "energie_kcal": 149.0, "proteine_g": 6.4, "grasimi_g": 0.5, "carbohidrati_g": 33.1, "calciu_mg": 181.0, "vitamina_c_mg": 0.0, "fier_mg": 0.2 },
+    "pret_mediu_per_100g": 3.0,
+    "disponibilitate": 5,
+    "alergeni": []
+  },
+  {
+    "id": 80,
+    "nume": "Peanut butter, creamy",
+    "nutrienti_per_100g": { "energie_kcal": 588.0, "proteine_g": 24.1, "grasimi_g": 50.4, "carbohidrati_g": 19.6, "calciu_mg": 43.0, "vitamina_c_mg": 0.0, "fier_mg": 0.2 },
+    "pret_mediu_per_100g": 2.8,
+    "disponibilitate": 5,
+    "alergeni": ["arahide"]
+  },
+  {
+    "id": 81,
+    "nume": "Bananas, ripe and slightly ripe, raw",
+    "nutrienti_per_100g": { "energie_kcal": 89.0, "proteine_g": 1.1, "grasimi_g": 0.3, "carbohidrati_g": 22.8, "calciu_mg": 5.0, "vitamina_c_mg": 15.0, "fier_mg": 0.2 },
+    "pret_mediu_per_100g": 0.8,
+    "disponibilitate": 5,
+    "alergeni": []
+  },
+  {
+    "id": 82,
+    "nume": "Beef, ground, 80% lean meat / 20% fat, raw",
+    "nutrienti_per_100g": { "energie_kcal": 254.0, "proteine_g": 17.2, "grasimi_g": 20.0, "carbohidrati_g": 0.0, "calciu_mg": 18.0, "vitamina_c_mg": 0.0, "fier_mg": 3.5 },
+    "pret_mediu_per_100g": 4.5,
+    "disponibilitate": 5,
+    "alergeni": []
+  },
+  {
+    "id": 83,
+    "nume": "Lettuce, iceberg, raw",
+    "nutrienti_per_100g": { "energie_kcal": 14.0, "proteine_g": 0.9, "grasimi_g": 0.1, "carbohidrati_g": 3.0, "calciu_mg": 18.0, "vitamina_c_mg": 15.0, "fier_mg": 0.2 },
+    "pret_mediu_per_100g": 1.0,
+    "disponibilitate": 5,
+    "alergeni": []
+  },
+  {
+    "id": 84,
+    "nume": "Cheese, cheddar",
+    "nutrienti_per_100g": { "energie_kcal": 403.0, "proteine_g": 24.9, "grasimi_g": 33.1, "carbohidrati_g": 1.3, "calciu_mg": 721.0, "vitamina_c_mg": 0.0, "fier_mg": 0.2 },
+    "pret_mediu_per_100g": 5.2,
+    "disponibilitate": 5,
+    "alergeni": ["lactoza", "lapte"]
+  },
+  {
+    "id": 85,
+    "nume": "Lentils, dry",
+    "nutrienti_per_100g": { "energie_kcal": 353.0, "proteine_g": 24.6, "grasimi_g": 1.1, "carbohidrati_g": 63.4, "calciu_mg": 35.0, "vitamina_c_mg": 0.0, "fier_mg": 3.5 },
+    "pret_mediu_per_100g": 1.2,
+    "disponibilitate": 4,
+    "alergeni": []
+  },
+  {
+    "id": 86,
+    "nume": "Peppers, bell, yellow, raw",
+    "nutrienti_per_100g": { "energie_kcal": 27.0, "proteine_g": 1.0, "grasimi_g": 0.2, "carbohidrati_g": 6.3, "calciu_mg": 11.0, "vitamina_c_mg": 45.0, "fier_mg": 0.2 },
+    "pret_mediu_per_100g": 3.5,
+    "disponibilitate": 5,
+    "alergeni": []
+  },
+  {
+    "id": 87,
+    "nume": "Onions, white, raw",
+    "nutrienti_per_100g": { "energie_kcal": 40.0, "proteine_g": 1.1, "grasimi_g": 0.1, "carbohidrati_g": 9.3, "calciu_mg": 23.0, "vitamina_c_mg": 15.0, "fier_mg": 0.2 },
+    "pret_mediu_per_100g": 1.2,
+    "disponibilitate": 5,
+    "alergeni": []
+  },
+  {
+    "id": 88,
+    "nume": "Crustaceans, shrimp, farm raised, raw",
+    "nutrienti_per_100g": { "energie_kcal": 85.0, "proteine_g": 20.1, "grasimi_g": 0.5, "carbohidrati_g": 0.0, "calciu_mg": 64.0, "vitamina_c_mg": 0.0, "fier_mg": 1.1 },
+    "pret_mediu_per_100g": 9.5,
+    "disponibilitate": 4,
+    "alergeni": ["fructe_de_mare"]
+  },
+  {
+    "id": 89,
+    "nume": "Chia seeds, dry, raw",
+    "nutrienti_per_100g": { "energie_kcal": 486.0, "proteine_g": 16.5, "grasimi_g": 30.7, "carbohidrati_g": 42.1, "calciu_mg": 631.0, "vitamina_c_mg": 0.0, "fier_mg": 3.0 },
+    "pret_mediu_per_100g": 5.0,
+    "disponibilitate": 5,
+    "alergeni": []
+  },
+  {
+    "id": 90,
+    "nume": "Almond milk, unsweetened, plain",
+    "nutrienti_per_100g": { "energie_kcal": 15.0, "proteine_g": 0.6, "grasimi_g": 1.1, "carbohidrati_g": 0.6, "calciu_mg": 184.0, "vitamina_c_mg": 15.0, "fier_mg": 3.0 },
+    "pret_mediu_per_100g": 1.8,
+    "disponibilitate": 5,
+    "alergeni": ["nuci"]
+  },
+  {
+    "id": 91,
+    "nume": "Raspberries, raw",
+    "nutrienti_per_100g": { "energie_kcal": 52.0, "proteine_g": 1.2, "grasimi_g": 0.7, "carbohidrati_g": 11.9, "calciu_mg": 25.0, "vitamina_c_mg": 15.0, "fier_mg": 0.2 },
+    "pret_mediu_per_100g": 7.5,
+    "disponibilitate": 3,
+    "alergeni": []
+  },
+  {
+    "id": 92,
+    "nume": "Rice, black, unenriched, raw",
+    "nutrienti_per_100g": { "energie_kcal": 356.0, "proteine_g": 8.9, "grasimi_g": 3.3, "carbohidrati_g": 75.6, "calciu_mg": 11.0, "vitamina_c_mg": 0.0, "fier_mg": 0.2 },
+    "pret_mediu_per_100g": 2.5,
+    "disponibilitate": 3,
+    "alergeni": []
+  },
+  {
+    "id": 93,
+    "nume": "Mushrooms, shiitake",
+    "nutrienti_per_100g": { "energie_kcal": 34.0, "proteine_g": 2.2, "grasimi_g": 0.5, "carbohidrati_g": 6.8, "calciu_mg": 2.0, "vitamina_c_mg": 0.0, "fier_mg": 0.2 },
+    "pret_mediu_per_100g": 6.0,
+    "disponibilitate": 4,
+    "alergeni": []
+  },
+  {
+    "id": 94,
+    "nume": "Oil, soybean",
+    "nutrienti_per_100g": { "energie_kcal": 884.0, "proteine_g": 0.0, "grasimi_g": 100.0, "carbohidrati_g": 0.0, "calciu_mg": 0.0, "vitamina_c_mg": 0.0, "fier_mg": 0.2 },
+    "pret_mediu_per_100g": 1.2,
+    "disponibilitate": 5,
+    "alergeni": ["soia"]
+  },
+  {
+    "id": 95,
+    "nume": "Tomatoes, canned, red, ripe, diced",
+    "nutrienti_per_100g": { "energie_kcal": 32.0, "proteine_g": 1.2, "grasimi_g": 0.3, "carbohidrati_g": 7.3, "calciu_mg": 27.0, "vitamina_c_mg": 15.0, "fier_mg": 0.2 },
+    "pret_mediu_per_100g": 1.5,
+    "disponibilitate": 5,
+    "alergeni": []
+  },
+  {
+    "id": 96,
+    "nume": "Onions, yellow, raw",
+    "nutrienti_per_100g": { "energie_kcal": 40.0, "proteine_g": 1.1, "grasimi_g": 0.1, "carbohidrati_g": 9.3, "calciu_mg": 23.0, "vitamina_c_mg": 15.0, "fier_mg": 0.2 },
+    "pret_mediu_per_100g": 1.2,
+    "disponibilitate": 5,
+    "alergeni": []
+  },
+  {
+    "id": 97,
+    "nume": "Cream, heavy",
+    "nutrienti_per_100g": { "energie_kcal": 340.0, "proteine_g": 2.8, "grasimi_g": 36.1, "carbohidrati_g": 2.8, "calciu_mg": 65.0, "vitamina_c_mg": 0.0, "fier_mg": 0.2 },
+    "pret_mediu_per_100g": 4.5,
+    "disponibilitate": 5,
+    "alergeni": ["lactoza", "lapte"]
+  },
+  {
+    "id": 98,
+    "nume": "Sweet potatoes, orange flesh, raw",
+    "nutrienti_per_100g": { "energie_kcal": 86.0, "proteine_g": 1.6, "grasimi_g": 0.1, "carbohidrati_g": 20.1, "calciu_mg": 30.0, "vitamina_c_mg": 15.0, "fier_mg": 0.2 },
+    "pret_mediu_per_100g": 1.8,
+    "disponibilitate": 5,
+    "alergeni": []
+  },
+  {
+    "id": 99,
+    "nume": "Cheese, ricotta, whole milk",
+    "nutrienti_per_100g": { "energie_kcal": 174.0, "proteine_g": 11.3, "grasimi_g": 13.0, "carbohidrati_g": 3.0, "calciu_mg": 207.0, "vitamina_c_mg": 0.0, "fier_mg": 0.2 },
+    "pret_mediu_per_100g": 4.2,
+    "disponibilitate": 4,
+    "alergeni": ["lactoza", "lapte"]
+  },
+  {
+    "id": 100,
+    "nume": "Nectarines, raw",
+    "nutrienti_per_100g": { "energie_kcal": 44.0, "proteine_g": 1.1, "grasimi_g": 0.3, "carbohidrati_g": 10.6, "calciu_mg": 6.0, "vitamina_c_mg": 15.0, "fier_mg": 0.2 },
+    "pret_mediu_per_100g": 3.5,
+    "disponibilitate": 4,
+    "alergeni": []
+  },
+  {
+    "id": 101,
+    "nume": "Cheese, mozzarella, low moisture",
+    "nutrienti_per_100g": { "energie_kcal": 302.0, "proteine_g": 25.0, "grasimi_g": 22.0, "carbohidrati_g": 2.5, "calciu_mg": 700.0, "vitamina_c_mg": 0.0, "fier_mg": 0.2 },
+    "pret_mediu_per_100g": 4.5,
+    "disponibilitate": 5,
+    "alergeni": ["lactoza", "lapte"]
+  },
+  {
+    "id": 102,
+    "nume": "Arugula, baby, raw",
+    "nutrienti_per_100g": { "energie_kcal": 25.0, "proteine_g": 2.6, "grasimi_g": 0.7, "carbohidrati_g": 3.7, "calciu_mg": 160.0, "vitamina_c_mg": 15.0, "fier_mg": 0.2 },
+    "pret_mediu_per_100g": 6.0,
+    "disponibilitate": 4,
+    "alergeni": []
+  },
+  {
+    "id": 103,
+    "nume": "Pork, chop, center cut, raw",
+    "nutrienti_per_100g": { "energie_kcal": 231.0, "proteine_g": 20.2, "grasimi_g": 16.1, "carbohidrati_g": 0.0, "calciu_mg": 9.0, "vitamina_c_mg": 0.0, "fier_mg": 2.0 },
+    "pret_mediu_per_100g": 4.5,
+    "disponibilitate": 5,
+    "alergeni": []
+  },
+  {
+    "id": 104,
+    "nume": "Apples, gala, with skin, raw",
+    "nutrienti_per_100g": { "energie_kcal": 52.0, "proteine_g": 0.3, "grasimi_g": 0.2, "carbohidrati_g": 13.8, "calciu_mg": 6.0, "vitamina_c_mg": 15.0, "fier_mg": 0.2 },
+    "pret_mediu_per_100g": 1.5,
+    "disponibilitate": 5,
+    "alergeni": []
+  },
+  {
+    "id": 105,
+    "nume": "Chickpeas, canned",
+    "nutrienti_per_100g": { "energie_kcal": 164.0, "proteine_g": 8.9, "grasimi_g": 2.6, "carbohidrati_g": 27.4, "calciu_mg": 49.0, "vitamina_c_mg": 0.0, "fier_mg": 0.2 },
+    "pret_mediu_per_100g": 1.2,
+    "disponibilitate": 5,
+    "alergeni": []
+  },
+  {
+    "id": 106,
+    "nume": "Spinach, mature",
+    "nutrienti_per_100g": { "energie_kcal": 23.0, "proteine_g": 2.9, "grasimi_g": 0.4, "carbohidrati_g": 3.6, "calciu_mg": 99.0, "vitamina_c_mg": 15.0, "fier_mg": 2.7 },
+    "pret_mediu_per_100g": 2.5,
+    "disponibilitate": 5,
+    "alergeni": []
+  },
+  {
+    "id": 107,
+    "nume": "Oil, sunflower",
+    "nutrienti_per_100g": { "energie_kcal": 884.0, "proteine_g": 0.0, "grasimi_g": 100.0, "carbohidrati_g": 0.0, "calciu_mg": 0.0, "vitamina_c_mg": 0.0, "fier_mg": 0.2 },
+    "pret_mediu_per_100g": 1.1,
+    "disponibilitate": 5,
+    "alergeni": []
+  },
+  {
+    "id": 108,
+    "nume": "Fish, tilapia, farm raised, raw",
+    "nutrienti_per_100g": { "energie_kcal": 96.0, "proteine_g": 20.1, "grasimi_g": 1.7, "carbohidrati_g": 0.0, "calciu_mg": 10.0, "vitamina_c_mg": 0.0, "fier_mg": 1.1 },
+    "pret_mediu_per_100g": 4.2,
+    "disponibilitate": 4,
+    "alergeni": ["peste"]
+  },
+  {
+    "id": 109,
+    "nume": "Squash, winter, butternut, raw",
+    "nutrienti_per_100g": { "energie_kcal": 45.0, "proteine_g": 1.0, "grasimi_g": 0.1, "carbohidrati_g": 11.7, "calciu_mg": 48.0, "vitamina_c_mg": 15.0, "fier_mg": 0.2 },
+    "pret_mediu_per_100g": 2.5,
+    "disponibilitate": 5,
+    "alergeni": []
+  },
+  {
+    "id": 110,
+    "fdcId_original": 2700110,
+    "nume": "Egg, whole, raw",
+    "nutrienti_per_100g": { "energie_kcal": 143.0, "proteine_g": 12.6, "grasimi_g": 9.5, "carbohidrati_g": 0.7, "calciu_mg": 56.0, "vitamina_c_mg": 0.0, "fier_mg": 0.2 },
+    "pret_mediu_per_100g": 1.5,
+    "disponibilitate": 5,
+    "alergeni": ["oua"]
+  },
+  {
+    "id": 111,
+    "nume": "Bread, whole-wheat",
+    "nutrienti_per_100g": { "energie_kcal": 247.0, "proteine_g": 13.0, "grasimi_g": 3.4, "carbohidrati_g": 41.3, "calciu_mg": 161.0, "vitamina_c_mg": 0.0, "fier_mg": 0.2 },
+    "pret_mediu_per_100g": 0.8,
+    "disponibilitate": 5,
+    "alergeni": ["gluten"]
+  },
+  {
+    "id": 112,
+    "nume": "Grapefruit juice, white",
+    "nutrienti_per_100g": { "energie_kcal": 39.0, "proteine_g": 0.5, "grasimi_g": 0.1, "carbohidrati_g": 9.2, "calciu_mg": 9.0, "vitamina_c_mg": 15.0, "fier_mg": 0.2 },
+    "pret_mediu_per_100g": 2.0,
+    "disponibilitate": 5,
+    "alergeni": []
+  },
+  {
+    "id": 113,
+    "nume": "Nuts, pecans, halves, raw",
+    "nutrienti_per_100g": { "energie_kcal": 691.0, "proteine_g": 9.2, "grasimi_g": 72.0, "carbohidrati_g": 13.9, "calciu_mg": 70.0, "vitamina_c_mg": 0.0, "fier_mg": 3.0 },
+    "pret_mediu_per_100g": 15.0,
+    "disponibilitate": 3,
+    "alergeni": ["nuci"]
+  },
+  {
+    "id": 114,
+    "nume": "Lettuce, leaf, red, raw",
+    "nutrienti_per_100g": { "energie_kcal": 13.0, "proteine_g": 1.3, "grasimi_g": 0.2, "carbohidrati_g": 2.3, "calciu_mg": 33.0, "vitamina_c_mg": 15.0, "fier_mg": 0.2 },
+    "pret_mediu_per_100g": 1.2,
+    "disponibilitate": 5,
+    "alergeni": []
+  },
+  {
+    "id": 115,
+    "nume": "Lamb, ground, raw",
+    "nutrienti_per_100g": { "energie_kcal": 282.0, "proteine_g": 16.6, "grasimi_g": 23.4, "carbohidrati_g": 0.0, "calciu_mg": 16.0, "vitamina_c_mg": 0.0, "fier_mg": 3.5 },
+    "pret_mediu_per_100g": 11.0,
+    "disponibilitate": 3,
+    "alergeni": []
+  },
+  {
+    "id": 116,
+    "nume": "Fennel, bulb, raw",
+    "nutrienti_per_100g": { "energie_kcal": 31.0, "proteine_g": 1.2, "grasimi_g": 0.2, "carbohidrati_g": 7.3, "calciu_mg": 49.0, "vitamina_c_mg": 15.0, "fier_mg": 0.2 },
+    "pret_mediu_per_100g": 4.5,
+    "disponibilitate": 4,
+    "alergeni": []
+  },
+  {
+    "id": 117,
+    "nume": "Yogurt, Greek, strawberry",
+    "nutrienti_per_100g": { "energie_kcal": 106.0, "proteine_g": 8.0, "grasimi_g": 0.4, "carbohidrati_g": 17.6, "calciu_mg": 100.0, "vitamina_c_mg": 15.0, "fier_mg": 0.2 },
+    "pret_mediu_per_100g": 1.8,
+    "disponibilitate": 5,
+    "alergeni": ["lactoza", "lapte", "capsuni"]
+  }
+]

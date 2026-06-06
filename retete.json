@@ -1,0 +1,852 @@
+[
+  {
+    "id": 1,
+    "nume_reteta": "Mic Dejun cu Ovăz și Afine",
+    "perioade_zi": ["dimineata"],
+    "timp_preparare_minute": 10,
+    "ingrediente": [
+      { "nume": "Oats, whole grain, rolled, old fashioned", "cantitate_g": 100 },
+      { "nume": "Blueberries, raw", "cantitate_g": 80 },
+      { "nume": "Milk, whole", "cantitate_g": 250 }
+    ],
+    "instructiuni": ["Se fierbe ovăzul în lapte.", "Se adaugă afinele proaspete."]
+  },
+  {
+    "id": 2,
+    "nume_reteta": "Omletă cu Spanac și Mozzarella",
+    "perioade_zi": ["dimineata"],
+    "timp_preparare_minute": 15,
+    "ingrediente": [
+      { "nume": "Egg, whole, cooked", "cantitate_g": 200 },
+      { "nume": "Spinach, baby", "cantitate_g": 50 },
+      { "nume": "Cheese, mozzarella, low moisture, part-skim", "cantitate_g": 60 }
+    ],
+    "instructiuni": ["Se bat ouăle.", "Se sotează spanacul.", "Se gătește omleta cu brânză."]
+  },
+  {
+    "id": 3,
+    "nume_reteta": "Salată de Pui cu Avocado",
+    "perioade_zi": ["pranz", "seara"],
+    "timp_preparare_minute": 20,
+    "ingrediente": [
+      { "nume": "Chicken breast, boneless, skinless", "cantitate_g": 250 },
+      { "nume": "Avocado, Hass, peeled, raw", "cantitate_g": 150 },
+      { "nume": "Lettuce, romaine, green, raw", "cantitate_g": 100 }
+    ],
+    "instructiuni": ["Se gătește puiul.", "Se taie avocado.", "Se amestecă cu salata."]
+  },
+  {
+    "id": 4,
+    "nume_reteta": "Somon Sockeye la Cuptor cu Broccoli",
+    "perioade_zi": ["pranz", "seara"],
+    "timp_preparare_minute": 25,
+    "ingrediente": [
+      { "nume": "Fish, salmon, sockeye, wild caught, raw", "cantitate_g": 220 },
+      { "nume": "Broccoli, raw", "cantitate_g": 200 },
+      { "nume": "Oil, olive, extra virgin", "cantitate_g": 20 }
+    ],
+    "instructiuni": ["Se condimentează somonul.", "Se coace 15-20 min."]
+  },
+  {
+    "id": 5,
+    "nume_reteta": "Bol de Hummus cu Roșii și Castraveți",
+    "perioade_zi": ["pranz", "seara"],
+    "timp_preparare_minute": 5,
+    "ingrediente": [
+      { "nume": "Hummus, commercial", "cantitate_g": 300 },
+      { "nume": "Tomatoes, grape, raw", "cantitate_g": 150 },
+      { "nume": "Cucumber, with peel, raw", "cantitate_g": 150 }
+    ],
+    "instructiuni": ["Se așază hummus-ul în bol.", "Se adaugă legumele."]
+  },
+  {
+    "id": 6,
+    "nume_reteta": "Iaurt Grecesc cu Căpșuni și Migdale",
+    "perioade_zi": ["dimineata"],
+    "timp_preparare_minute": 5,
+    "ingrediente": [
+      { "nume": "Yogurt, Greek, plain", "cantitate_g": 300 },
+      { "nume": "Strawberries, raw", "cantitate_g": 150 },
+      { "nume": "Nuts, almonds, whole, raw", "cantitate_g": 40 }
+    ],
+    "instructiuni": ["Se amestecă iaurtul cu fructele.", "Se presară migdalele."]
+  },
+  {
+    "id": 7,
+    "nume_reteta": "Friptură de Vită cu Sparanghel",
+    "perioade_zi": ["pranz", "seara"],
+    "timp_preparare_minute": 30,
+    "ingrediente": [
+      { "nume": "Beef, loin, tenderloin roast, separable lean only", "cantitate_g": 250 },
+      { "nume": "Asparagus, green, raw", "cantitate_g": 150 },
+      { "nume": "Butter, stick, salted", "cantitate_g": 20 }
+    ],
+    "instructiuni": ["Se prăjește carnea.", "Se sotează sparanghelul în unt."]
+  },
+  {
+    "id": 8,
+    "nume_reteta": "Salată de Ton cu Telina și Ceapă",
+    "perioade_zi": ["pranz", "seara"],
+    "timp_preparare_minute": 10,
+    "ingrediente": [
+      { "nume": "Fish, tuna, light, canned in water", "cantitate_g": 200 },
+      { "nume": "Celery, raw", "cantitate_g": 100 },
+      { "nume": "Onions, red, raw", "cantitate_g": 50 }
+    ],
+    "instructiuni": ["Se scurge tonul.", "Se toacă legumele și se amestecă."]
+  },
+  {
+    "id": 9,
+    "nume_reteta": "Pui cu Ardei Gras la Tigaie",
+    "perioade_zi": ["pranz", "seara"],
+    "timp_preparare_minute": 20,
+    "ingrediente": [
+      { "nume": "Chicken breast, boneless, skinless", "cantitate_g": 250 },
+      { "nume": "Peppers, bell, red, raw", "cantitate_g": 150 },
+      { "nume": "Oil, canola", "cantitate_g": 20 }
+    ],
+    "instructiuni": ["Se taie puiul fâșii.", "Se gătește la foc iute."]
+  },
+  {
+    "id": 10,
+    "nume_reteta": "Paste cu Sos Marinara și Parmezan",
+    "perioade_zi": ["pranz"],
+    "timp_preparare_minute": 15,
+    "ingrediente": [
+      { "nume": "Sauce, pasta, spaghetti/marinara", "cantitate_g": 200 },
+      { "nume": "Cheese, parmesan, grated", "cantitate_g": 40 },
+      { "nume": "Flour, wheat, all-purpose", "cantitate_g": 150 }
+    ],
+    "instructiuni": ["Se fierb pastele.", "Se adaugă sosul și brânza."]
+  },
+  {
+    "id": 11,
+    "nume_reteta": "Gustare cu Brânză Cottage și Ananas",
+    "perioade_zi": ["dimineata"],
+    "timp_preparare_minute": 5,
+    "ingrediente": [
+      { "nume": "Cottage cheese, full fat", "cantitate_g": 250 },
+      { "nume": "Pineapple, raw", "cantitate_g": 150 }
+    ],
+    "instructiuni": ["Se amestecă brânza cu bucățile de ananas."]
+  },
+  {
+    "id": 12,
+    "nume_reteta": "Cod cu Piure de Morcovi",
+    "perioade_zi": ["pranz", "seara"],
+    "timp_preparare_minute": 35,
+    "ingrediente": [
+      { "nume": "Fish, cod, Atlantic, wild caught, raw", "cantitate_g": 250 },
+      { "nume": "Carrots, mature, raw", "cantitate_g": 300 },
+      { "nume": "Butter, stick, unsalted", "cantitate_g": 25 }
+    ],
+    "instructiuni": ["Se blendează morcovii cu unt.", "Se prăjește peștele."]
+  },
+  {
+    "id": 13,
+    "nume_reteta": "Salată Kale cu Semințe de Floarea Soarelui",
+    "perioade_zi": ["pranz", "seara"],
+    "timp_preparare_minute": 15,
+    "ingrediente": [
+      { "nume": "Kale, raw", "cantitate_g": 150 },
+      { "nume": "Seeds, sunflower seed, kernel, raw", "cantitate_g": 50 },
+      { "nume": "Cheese, feta, whole milk", "cantitate_g": 100 }
+    ],
+    "instructiuni": ["Se masează kale.", "Se adaugă semințele și feta."]
+  },
+  {
+    "id": 14,
+    "nume_reteta": "Tigaie de Curcan cu Dovlecel",
+    "perioade_zi": ["pranz", "seara"],
+    "timp_preparare_minute": 25,
+    "ingrediente": [
+      { "nume": "Turkey, ground, 93% lean, 7% fat", "cantitate_g": 250 },
+      { "nume": "Squash, summer, green, zucchini", "cantitate_g": 200 },
+      { "nume": "Garlic, raw", "cantitate_g": 10 }
+    ],
+    "instructiuni": ["Se gătește carnea.", "Se adaugă dovlecelul."]
+  },
+  {
+    "id": 15,
+    "nume_reteta": "Batoane cu Unt de Arahide și Banane",
+    "perioade_zi": ["dimineata"],
+    "timp_preparare_minute": 10,
+    "ingrediente": [
+      { "nume": "Peanut butter, creamy", "cantitate_g": 80 },
+      { "nume": "Bananas, ripe and slightly ripe, raw", "cantitate_g": 150 },
+      { "nume": "Focaccia, Italian, plain", "cantitate_g": 100 }
+    ],
+    "instructiuni": ["Se zdrobește banana.", "Se combină cu untul de arahide."]
+  },
+  {
+    "id": 16,
+    "nume_reteta": "Burger de Vită (fără chiflă) cu Salată",
+    "perioade_zi": ["pranz", "seara"],
+    "timp_preparare_minute": 20,
+    "ingrediente": [
+      { "nume": "Beef, ground, 80% lean meat / 20% fat, raw", "cantitate_g": 250 },
+      { "nume": "Lettuce, iceberg, raw", "cantitate_g": 150 },
+      { "nume": "Cheese, cheddar", "cantitate_g": 50 }
+    ],
+    "instructiuni": ["Se face chifteaua.", "Se servește în foi de salată."]
+  },
+  {
+    "id": 17,
+    "nume_reteta": "Salată de Linte cu Ardei Galben",
+    "perioade_zi": ["pranz", "seara"],
+    "timp_preparare_minute": 40,
+    "ingrediente": [
+      { "nume": "Lentils, dry", "cantitate_g": 150 },
+      { "nume": "Peppers, bell, yellow, raw", "cantitate_g": 150 },
+      { "nume": "Onions, white, raw", "cantitate_g": 50 }
+    ],
+    "instructiuni": ["Se fierbe lintea.", "Se adaugă legumele tocate."]
+  },
+  {
+    "id": 18,
+    "nume_reteta": "Creveți cu Usturoi și Lămâie",
+    "perioade_zi": ["pranz", "seara"],
+    "timp_preparare_minute": 15,
+    "ingrediente": [
+      { "nume": "Crustaceans, shrimp, farm raised, raw", "cantitate_g": 250 },
+      { "nume": "Garlic, raw", "cantitate_g": 15 },
+      { "nume": "Oil, olive, extra virgin", "cantitate_g": 30 }
+    ],
+    "instructiuni": ["Se prăjesc creveții cu mult usturoi."]
+  },
+  {
+    "id": 19,
+    "nume_reteta": "Budincă de Chia cu Lapte de Migdale",
+    "perioade_zi": ["dimineata"],
+    "timp_preparare_minute": 5,
+    "ingrediente": [
+      { "nume": "Chia seeds, dry, raw", "cantitate_g": 60 },
+      { "nume": "Almond milk, unsweetened, plain", "cantitate_g": 300 },
+      { "nume": "Raspberries, raw", "cantitate_g": 100 }
+    ],
+    "instructiuni": ["Se amestecă chia cu laptele.", "Se lasă la rece."]
+  },
+  {
+    "id": 20,
+    "nume_reteta": "Orez Negru cu Ciuperci Shiitake",
+    "perioade_zi": ["pranz", "seara"],
+    "timp_preparare_minute": 45,
+    "ingrediente": [
+      { "nume": "Rice, black, unenriched, raw", "cantitate_g": 150 },
+      { "nume": "Mushrooms, shiitake", "cantitate_g": 150 },
+      { "nume": "Oil, soybean", "cantitate_g": 20 }
+    ],
+    "instructiuni": ["Se fierbe orezul.", "Se sotează ciupercile."]
+  },
+  {
+    "id": 21,
+    "nume_reteta": "Supă Cremă de Roșii",
+    "perioade_zi": ["pranz", "seara"],
+    "timp_preparare_minute": 30,
+    "ingrediente": [
+      { "nume": "Tomatoes, canned, red, ripe, diced", "cantitate_g": 500 },
+      { "nume": "Onions, yellow, raw", "cantitate_g": 100 },
+      { "nume": "Cream, heavy", "cantitate_g": 50 }
+    ],
+    "instructiuni": ["Se fierb roșiile.", "Se blendează cu smântână."]
+  },
+  {
+    "id": 22,
+    "nume_reteta": "Cartof Dulce la Cuptor cu Ricotta",
+    "perioade_zi": ["pranz", "seara"],
+    "timp_preparare_minute": 40,
+    "ingrediente": [
+      { "nume": "Sweet potatoes, orange flesh, raw", "cantitate_g": 300 },
+      { "nume": "Cheese, ricotta, whole milk", "cantitate_g": 150 }
+    ],
+    "instructiuni": ["Se coace cartoful.", "Se adaugă ricotta."]
+  },
+  {
+    "id": 23,
+    "nume_reteta": "Salată de Nectarine și Mozzarella",
+    "perioade_zi": ["pranz", "seara"],
+    "timp_preparare_minute": 10,
+    "ingrediente": [
+      { "nume": "Nectarines, raw", "cantitate_g": 200 },
+      { "nume": "Cheese, mozzarella, low moisture", "cantitate_g": 150 },
+      { "nume": "Arugula, baby, raw", "cantitate_g": 100 }
+    ],
+    "instructiuni": ["Se feliază fructele.", "Se pun pe pat de rucola."]
+  },
+  {
+    "id": 24,
+    "nume_reteta": "Pork Chop cu Mere Gala",
+    "perioade_zi": ["pranz", "seara"],
+    "timp_preparare_minute": 25,
+    "ingrediente": [
+      { "nume": "Pork, chop, center cut, raw", "cantitate_g": 250 },
+      { "nume": "Apples, gala, with skin, raw", "cantitate_g": 150 },
+      { "nume": "Butter, stick, salted", "cantitate_g": 20 }
+    ],
+    "instructiuni": ["Se prăjește carnea.", "Se sotează merele."]
+  },
+  {
+    "id": 25,
+    "nume_reteta": "Bol de Năut cu Spanac Matur",
+    "perioade_zi": ["pranz", "seara"],
+    "timp_preparare_minute": 15,
+    "ingrediente": [
+      { "nume": "Chickpeas, canned", "cantitate_g": 300 },
+      { "nume": "Spinach, mature", "cantitate_g": 150 },
+      { "nume": "Oil, sunflower", "cantitate_g": 20 }
+    ],
+    "instructiuni": ["Se încălzește năutul.", "Se adaugă spanacul."]
+  },
+  {
+    "id": 26,
+    "nume_reteta": "Pește Tilapia cu Dovleac Butternut",
+    "perioade_zi": ["pranz", "seara"],
+    "timp_preparare_minute": 35,
+    "ingrediente": [
+      { "nume": "Fish, tilapia, farm raised, raw", "cantitate_g": 250 },
+      { "nume": "Squash, winter, butternut, raw", "cantitate_g": 250 }
+    ],
+    "instructiuni": ["Se coace dovleacul.", "Se adaugă peștele la final."]
+  },
+  {
+    "id": 27,
+    "nume_reteta": "Micul Dejun cu Ou Moale și Toast",
+    "perioade_zi": ["dimineata"],
+    "timp_preparare_minute": 10,
+    "ingrediente": [
+      { "nume": "Egg, whole, raw", "cantitate_g": 150 },
+      { "nume": "Bread, whole-wheat", "cantitate_g": 100 },
+      { "nume": "Butter, stick, salted", "cantitate_g": 20 }
+    ],
+    "instructiuni": ["Se fierb ouăle.", "Se servesc cu pâine prăjită."]
+  },
+  {
+    "id": 28,
+    "nume_reteta": "Salată de Grepfrut cu Nuci Pecan",
+    "perioade_zi": ["pranz"],
+    "timp_preparare_minute": 10,
+    "ingrediente": [
+      { "nume": "Grapefruit juice, white", "cantitate_g": 100 },
+      { "nume": "Nuts, pecans, halves, raw", "cantitate_g": 60 },
+      { "nume": "Lettuce, leaf, red, raw", "cantitate_g": 150 }
+    ],
+    "instructiuni": ["Se folosește sucul.", "Se combină salata cu nucile."]
+  },
+  {
+    "id": 29,
+    "nume_reteta": "Miel cu Fenicul la Tigaie",
+    "perioade_zi": ["pranz", "seara"],
+    "timp_preparare_minute": 30,
+    "ingrediente": [
+      { "nume": "Lamb, ground, raw", "cantitate_g": 250 },
+      { "nume": "Fennel, bulb, raw", "cantitate_g": 150 }
+    ],
+    "instructiuni": ["Se gătește carnea.", "Se adaugă feniculul tăiat."]
+  },
+  {
+    "id": 30,
+    "nume_reteta": "Desert cu Smochine și Iaurt",
+    "perioade_zi": ["seara"],
+    "timp_preparare_minute": 5,
+    "ingrediente": [
+      { "nume": "Salată de fructe (fără citrice)", "cantitate_g": 150 },
+      { "nume": "Yogurt, Greek, strawberry", "cantitate_g": 250 }
+    ],
+    "instructiuni": ["Se amestecă fructele cu iaurtul."]
+  },
+  {
+    "id": 31,
+    "nume_reteta": "Budincă de Chia cu Căpșuni și Migdale",
+    "perioade_zi": ["dimineata"],
+    "timp_preparare_minute": 5,
+    "ingrediente": [
+      { "nume": "Chia seeds, dry, raw", "cantitate_g": 50 },
+      { "nume": "Almond milk, unsweetened, plain", "cantitate_g": 250 },
+      { "nume": "Nuts, almonds, whole, raw", "cantitate_g": 30 },
+      { "nume": "Strawberries, raw", "cantitate_g": 100 }
+    ],
+    "instructiuni": ["Se amestecă semințele de chia cu laptele de migdale.", "Se lasă la hidratat.", "Se adaugă migdalele și căpșunile."]
+  },
+  {
+    "id": 32,
+    "nume_reteta": "Tigaie de Vită cu Ciuperci Shiitake și Broccoli",
+    "perioade_zi": ["pranz", "seara"],
+    "timp_preparare_minute": 25,
+    "ingrediente": [
+      { "nume": "Beef, ground, 80% lean meat / 20% fat, raw", "cantitate_g": 200 },
+      { "nume": "Mushrooms, shiitake", "cantitate_g": 150 },
+      { "nume": "Broccoli, raw", "cantitate_g": 200 },
+      { "nume": "Oil, canola", "cantitate_g": 20 }
+    ],
+    "instructiuni": ["Se prăjește carnea de vită în ulei de caniula.", "Se adaugă ciupercile shiitake feliate și buchețelele de broccoli.", "Se sotează sub capac."]
+  },
+  {
+    "id": 33,
+    "nume_reteta": "Somon Sockeye cu Salată Leaf și Castraveți",
+    "perioade_zi": ["pranz", "seara"],
+    "timp_preparare_minute": 20,
+    "ingrediente": [
+      { "nume": "Fish, salmon, sockeye, wild caught, raw", "cantitate_g": 200 },
+      { "nume": "Lettuce, leaf, red, raw", "cantitate_g": 120 },
+      { "nume": "Cucumber, with peel, raw", "cantitate_g": 100 },
+      { "nume": "Oil, olive, extra virgin", "cantitate_g": 15 }
+    ],
+    "instructiuni": ["Se gătește somonul pe plită sau la cuptor.", "Se prepară salata din frunze roșii și castraveți, stropită cu ulei de măsline."]
+  },
+  {
+    "id": 34,
+    "nume_reteta": "Omletă cu Roșii Grape și Ardei Gras",
+    "perioade_zi": ["dimineata"],
+    "timp_preparare_minute": 10,
+    "ingrediente": [
+      { "nume": "Eggs, Grade A, Large, egg whole", "cantitate_g": 150 },
+      { "nume": "Tomatoes, grape, raw", "cantitate_g": 100 },
+      { "nume": "Peppers, bell, red, raw", "cantitate_g": 80 },
+      { "nume": "Oil, sunflower", "cantitate_g": 15 }
+    ],
+    "instructiuni": ["Se sotează ardeiul gras feliat și roșiile grape în ulei.", "Se adaugă ouăle bătute bine și se gătește omleta."]
+  },
+  {
+    "id": 35,
+    "nume_reteta": "Curcan cu Orez Negru și Ceapă",
+    "perioade_zi": ["pranz"],
+    "timp_preparare_minute": 45,
+    "ingrediente": [
+      { "nume": "Turkey, ground, 93% lean, 7% fat", "cantitate_g": 220 },
+      { "nume": "Rice, black, unenriched, raw", "cantitate_g": 80 },
+      { "nume": "Onions, yellow, raw", "cantitate_g": 60 },
+      { "nume": "Oil, soybean", "cantitate_g": 20 }
+    ],
+    "instructiuni": ["Se fierbe orezul negru conform instrucțiunilor.", "Se înăbușă ceapa galbenă, se adaugă curcanul și se amestecă cu orezul."]
+  },
+  {
+    "id": 36,
+    "nume_reteta": "Pork Chop la Tigaie cu Varză Kale",
+    "perioade_zi": ["pranz", "seara"],
+    "timp_preparare_minute": 25,
+    "ingrediente": [
+      { "nume": "Pork, chop, center cut, raw", "cantitate_g": 200 },
+      { "nume": "Kale, raw", "cantitate_g": 150 },
+      { "nume": "Garlic, raw", "cantitate_g": 10 },
+      { "nume": "Oil, olive, extra virgin", "cantitate_g": 15 }
+    ],
+    "instructiuni": ["Se rumenește cotletul de porc.", "În aceeași tigaie se sotează varza kale tăiată fâșii cu usturoi pisat și ulei de măsline."]
+  },
+  {
+    "id": 37,
+    "nume_reteta": "Terci de Ovăz cu Lapte de Migdale și Unt de Arahide",
+    "perioade_zi": ["dimineata"],
+    "timp_preparare_minute": 12,
+    "ingrediente": [
+      { "nume": "Oats, whole grain, rolled, old fashioned", "cantitate_g": 80 },
+      { "nume": "Almond milk, unsweetened, plain", "cantitate_g": 250 },
+      { "nume": "Peanut butter, creamy", "cantitate_g": 50 },
+      { "nume": "Bananas, ripe and slightly ripe, raw", "cantitate_g": 100 }
+    ],
+    "instructiuni": ["Se fierbe ovăzul în laptele de migdale.", "Se încorporează untul de arahide cremos și se servește cu felii de banană."]
+  },
+  {
+    "id": 38,
+    "nume_reteta": "Miel cu Salată de Arugula și Roșii",
+    "perioade_zi": ["pranz", "seara"],
+    "timp_preparare_minute": 30,
+    "ingrediente": [
+      { "nume": "Lamb, ground, raw", "cantitate_g": 200 },
+      { "nume": "Arugula, baby, raw", "cantitate_g": 80 },
+      { "nume": "Tomatoes, grape, raw", "cantitate_g": 100 },
+      { "nume": "Onions, red, raw", "cantitate_g": 40 }
+    ],
+    "instructiuni": ["Se prepară carnea de miel la tigaie sub formă de chifteluțe.", "Se așază pe un pat de rucola baby, roșii și ceapă roșie tăiată fin."]
+  },
+  {
+    "id": 39,
+    "nume_reteta": "Cod la Cuptor cu Sparanghel",
+    "perioade_zi": ["pranz", "seara"],
+    "timp_preparare_minute": 25,
+    "ingrediente": [
+      { "nume": "Fish, cod, Atlantic, wild caught, raw", "cantitate_g": 220 },
+      { "nume": "Asparagus, green, raw", "cantitate_g": 150 },
+      { "nume": "Oil, olive, extra virgin", "cantitate_g": 20 }
+    ],
+    "instructiuni": ["Se așază codul și sparanghelul într-o tavă rezistentă la copt.", "Se stropesc cu ulei de măsline și se dau la cuptor 15-20 min."]
+  },
+  {
+    "id": 40,
+    "nume_reteta": "Salată de Năut cu Ceapă Roșie și Ardei Galben",
+    "perioade_zi": ["pranz", "seara"],
+    "timp_preparare_minute": 10,
+    "ingrediente": [
+      { "nume": "Chickpeas, canned", "cantitate_g": 250 },
+      { "nume": "Onions, red, raw", "cantitate_g": 60 },
+      { "nume": "Peppers, bell, yellow, raw", "cantitate_g": 120 },
+      { "nume": "Oil, olive, extra virgin", "cantitate_g": 15 }
+    ],
+    "instructiuni": ["Se clătește năutul din conservă.", "Se amestecă într-un bol cu ardeiul galben cubic, ceapa roșie și uleiul de măsline."]
+  },
+  {
+    "id": 41,
+    "nume_reteta": "Smoothie Proteic cu Zmeură și Migdale",
+    "perioade_zi": ["dimineata"],
+    "timp_preparare_minute": 5,
+    "ingrediente": [
+      { "nume": "Almond milk, unsweetened, plain", "cantitate_g": 300 },
+      { "nume": "Raspberries, raw", "cantitate_g": 120 },
+      { "nume": "Nuts, almonds, whole, raw", "cantitate_g": 40 }
+    ],
+    "instructiuni": ["Se pun toate ingredientele într-un blender de mare putere.", "Se mixează până la omogenizare."]
+  },
+  {
+    "id": 42,
+    "nume_reteta": "Friptură de Vită cu Piure de Cartofi Dulci",
+    "perioade_zi": ["pranz", "seara"],
+    "timp_preparare_minute": 45,
+    "ingrediente": [
+      { "nume": "Beef, loin, tenderloin roast, separable lean only", "cantitate_g": 200 },
+      { "nume": "Sweet potatoes, orange flesh, raw", "cantitate_g": 250 },
+      { "nume": "Oil, canola", "cantitate_g": 15 }
+    ],
+    "instructiuni": ["Se coace cartoful dulce și se zdrobește fin.", "Se frige carnea de vită în ulei de caniula conform preferințelor."]
+  },
+  {
+    "id": 43,
+    "nume_reteta": "Creveți Sotați cu Usturoi și Broccoli",
+    "perioade_zi": ["pranz", "seara"],
+    "timp_preparare_minute": 15,
+    "ingrediente": [
+      { "nume": "Crustaceans, shrimp, farm raised, raw", "cantitate_g": 200 },
+      { "nume": "Broccoli, raw", "cantitate_g": 180 },
+      { "nume": "Garlic, raw", "cantitate_g": 10 },
+      { "nume": "Oil, olive, extra virgin", "cantitate_g": 20 }
+    ],
+    "instructiuni": ["Se opărește broccoli.", "Se sotează usturoiul și creveții în ulei de măsline, apoi se adaugă broccoli."]
+  },
+  {
+    "id": 44,
+    "nume_reteta": "Mic Dejun cu Ouă Prăjite, Toast și Salată Roșie",
+    "perioade_zi": ["dimineata"],
+    "timp_preparare_minute": 10,
+    "ingrediente": [
+      { "nume": "Eggs, Grade A, Large, egg whole", "cantitate_g": 120 },
+      { "nume": "Bread, whole-wheat", "cantitate_g": 60 },
+      { "nume": "Lettuce, leaf, red, raw", "cantitate_g": 80 },
+      { "nume": "Oil, sunflower", "cantitate_g": 10 }
+    ],
+    "instructiuni": ["Se prăjesc ouăle ochiuri în ulei.", "Se servesc cu pâine integrală prăjită și frunze proaspete de salată roșie."]
+  },
+  {
+    "id": 45,
+    "nume_reteta": "Bol de Orez Negru cu Pui și Varză Kale",
+    "perioade_zi": ["pranz", "seara"],
+    "timp_preparare_minute": 45,
+    "ingrediente": [
+      { "nume": "Rice, black, unenriched, raw", "cantitate_g": 80 },
+      { "nume": "Chicken breast, boneless, skinless", "cantitate_g": 180 },
+      { "nume": "Kale, raw", "cantitate_g": 100 },
+      { "nume": "Oil, sunflower", "cantitate_g": 15 }
+    ],
+    "instructiuni": ["Se fierbe orezul negru.", "Se trage puiul la tigaie împreună cu fâșiile de kale."]
+  },
+  {
+    "id": 46,
+    "nume_reteta": "Pește Tilapia cu Roșii la Cutie și Măsline",
+    "perioade_zi": ["pranz", "seara"],
+    "timp_preparare_minute": 30,
+    "ingrediente": [
+      { "nume": "Fish, tilapia, farm raised, raw", "cantitate_g": 200 },
+      { "nume": "Tomatoes, canned, red, ripe, diced", "cantitate_g": 250 },
+      { "nume": "Olives, black", "cantitate_g": 50 }
+    ],
+    "instructiuni": ["Se pune peștele tilapia într-un vas de sticlă.", "Se acoperă cu roșiile tăiate cuburi și măslinele negre, apoi se dă la cuptor."]
+  },
+  {
+    "id": 47,
+    "nume_reteta": "Supă de Linte Uscată cu Morcovi",
+    "perioade_zi": ["pranz", "seara"],
+    "timp_preparare_minute": 40,
+    "ingrediente": [
+      { "nume": "Lentils, dry", "cantitate_g": 100 },
+      { "nume": "Carrots, mature, raw", "cantitate_g": 120 },
+      { "nume": "Onions, yellow, raw", "cantitate_g": 60 }
+    ],
+    "instructiuni": ["Se fierb lintea, morcovii feliați și ceapa galbenă până când compoziția devine moale."]
+  },
+  {
+    "id": 48,
+    "nume_reteta": "Cotlet de Porc cu Cartofi Copți",
+    "perioade_zi": ["seara"],
+    "timp_preparare_minute": 35,
+    "ingrediente": [
+      { "nume": "Pork, chop, center cut, raw", "cantitate_g": 200 },
+      { "nume": "Potato, baked, peel not eaten", "cantitate_g": 200 },
+      { "nume": "Oil, canola", "cantitate_g": 15 }
+    ],
+    "instructiuni": ["Se coc cartofii în coajă la cuptor.", "Se prăjește cotletul de porc în tigaie cu ulei de canola."]
+  },
+  {
+    "id": 49,
+    "nume_reteta": "Salată Simplă de Fructe cu Semințe de Floarea Soarelui",
+    "perioade_zi": ["dimineata"],
+    "timp_preparare_minute": 5,
+    "ingrediente": [
+      { "nume": "Salată de fructe (fără citrice)", "cantitate_g": 200 },
+      { "nume": "Seeds, sunflower seed, kernel, raw", "cantitate_g": 40 }
+    ],
+    "instructiuni": ["Se pun fructele gata tăiate într-un bol.", "Se presară deasupra semințele crude de floarea soarelui."]
+  },
+  {
+    "id": 50,
+    "nume_reteta": "Salată de Ton cu Rucola și Castraveți",
+    "perioade_zi": ["pranz", "seara"],
+    "timp_preparare_minute": 10,
+    "ingrediente": [
+      { "nume": "Fish, tuna, light, canned in water", "cantitate_g": 150 },
+      { "nume": "Arugula, baby, raw", "cantitate_g": 80 },
+      { "nume": "Cucumber, with peel, raw", "cantitate_g": 100 }
+    ],
+    "instructiuni": ["Se scurge conserva de ton.", "Se amestecă într-un bol mare cu rucola baby și felii proaspete de castravete."]
+  },
+  {
+    "id": 51,
+    "nume_reteta": "Salată de Rucola cu Creveți și Avocado",
+    "perioade_zi": ["pranz", "seara"],
+    "timp_preparare_minute": 15,
+    "ingrediente": [
+      { "nume": "Arugula, baby, raw", "cantitate_g": 100 },
+      { "nume": "Crustaceans, shrimp, farm raised, raw", "cantitate_g": 120 },
+      { "nume": "Avocado, Hass, peeled, raw", "cantitate_g": 50 },
+      { "nume": "Oil, olive, extra virgin", "cantitate_g": 10 }
+    ],
+    "instructiuni": ["Se sotează creveții în jumătate din cantitatea de ulei.", "Se amestecă rucola cu avocado feliat.", "Se adaugă creveții și restul de ulei."]
+  },
+  {
+    "id": 52,
+    "nume_reteta": "Tigăiță de Pui cu Broccoli și Ciuperci",
+    "perioade_zi": ["pranz", "seara"],
+    "timp_preparare_minute": 20,
+    "ingrediente": [
+      { "nume": "Chicken breast, boneless, skinless", "cantitate_g": 120 },
+      { "nume": "Broccoli, raw", "cantitate_g": 150 },
+      { "nume": "Mushrooms, shiitake", "cantitate_g": 100 },
+      { "nume": "Oil, canola", "cantitate_g": 10 }
+    ],
+    "instructiuni": ["Se taie puiul cubulețe și se rumenește în ulei de canola.", "Se adaugă ciupercile și broccoli înăbușit.", "Se gătește la foc mediu."]
+  },
+  {
+    "id": 53,
+    "nume_reteta": "Gustare de Chia cu Zmeură și Lapte de Migdale",
+    "perioade_zi": ["dimineata"],
+    "timp_preparare_minute": 5,
+    "ingrediente": [
+      { "nume": "Chia seeds, dry, raw", "cantitate_g": 30 },
+      { "nume": "Almond milk, unsweetened, plain", "cantitate_g": 200 },
+      { "nume": "Raspberries, raw", "cantitate_g": 80 }
+    ],
+    "instructiuni": ["Se pun semințele de chia în laptele de migdale și se amestecă bine.", "Se lasă la frigider.", "Se servește decorat cu zmeură proaspătă."]
+  },
+  {
+    "id": 54,
+    "nume_reteta": "Salată de Linte cu Morcovi și Ceapă Roșie",
+    "perioade_zi": ["pranz", "seara"],
+    "timp_preparare_minute": 15,
+    "ingrediente": [
+      { "nume": "Lentils, dry", "cantitate_g": 60 },
+      { "nume": "Carrots, mature, raw", "cantitate_g": 80 },
+      { "nume": "Onions, red, raw", "cantitate_g": 40 },
+      { "nume": "Oil, olive, extra virgin", "cantitate_g": 10 }
+    ],
+    "instructiuni": ["Se fierbe lintea și se scurge.", "Se adaugă morcovul dat prin răzătoare și ceapa roșie tocată fin.", "Se asezonează cu ulei de măsline."]
+  },
+  {
+    "id": 55,
+    "nume_reteta": "Pește Cod la Tigaie cu Spanac Baby",
+    "perioade_zi": ["pranz", "seara"],
+    "timp_preparare_minute": 15,
+    "ingrediente": [
+      { "nume": "Fish, cod, Atlantic, wild caught, raw", "cantitate_g": 150 },
+      { "nume": "Spinach, baby", "cantitate_g": 100 },
+      { "nume": "Oil, sunflower", "cantitate_g": 10 }
+    ],
+    "instructiuni": ["Se gătește peștele cod în tigaia încinsă cu ulei.", "În ultimele 3 minute se adaugă spanacul baby direct în tigaie până se înăbușă."]
+  },
+  {
+    "id": 56,
+    "nume_reteta": "Salată Romaine cu Curcan și Roșii Grape",
+    "perioade_zi": ["pranz", "seara"],
+    "timp_preparare_minute": 15,
+    "ingrediente": [
+      { "nume": "Lettuce, romaine, green, raw", "cantitate_g": 120 },
+      { "nume": "Turkey, ground, 93% lean, 7% fat", "cantitate_g": 120 },
+      { "nume": "Tomatoes, grape, raw", "cantitate_g": 80 },
+      { "nume": "Oil, olive, extra virgin", "cantitate_g": 10 }
+    ],
+    "instructiuni": ["Se trage carnea de curcan la tigaie.", "Se spală și se taie salata romaine și roșiile.", "Se amestecă toutul cu ulei de măsline."]
+  },
+  {
+    "id": 57,
+    "nume_reteta": "Porție Ușoară de Tilapia cu Dovlecel",
+    "perioade_zi": ["seara"],
+    "timp_preparare_minute": 20,
+    "ingrediente": [
+      { "nume": "Fish, tilapia, farm raised, raw", "cantitate_g": 140 },
+      { "nume": "Squash, summer, green, zucchini", "cantitate_g": 150 },
+      { "nume": "Oil, canola", "cantitate_g": 10 }
+    ],
+    "instructiuni": ["Se taie dovlecelul felii subțiri.", "Se așază peștele și dovleceii pe o tavă și se coc la cuptor."]
+  },
+  {
+    "id": 58,
+    "nume_reteta": "Gustare de Pâine Integrală cu Unt de Arahide",
+    "perioade_zi": ["dimineata"],
+    "timp_preparare_minute": 5,
+    "ingrediente": [
+      { "nume": "Bread, whole-wheat", "cantitate_g": 40 },
+      { "nume": "Peanut butter, creamy", "cantitate_g": 20 },
+      { "nume": "Bananas, ripe and slightly ripe, raw", "cantitate_g": 50 }
+    ],
+    "instructiuni": ["Se prăjește felia de pâine.", "Se unge cu unt de arahide și se adaugă câteva felii subțiri de banană."]
+  },
+  {
+    "id": 59,
+    "nume_reteta": "Salată de Năut cu Ardei Gras și Ceapă",
+    "perioade_zi": ["pranz", "seara"],
+    "timp_preparare_minute": 10,
+    "ingrediente": [
+      { "nume": "Chickpeas, canned", "cantitate_g": 150 },
+      { "nume": "Peppers, bell, red, raw", "cantitate_g": 80 },
+      { "nume": "Onions, yellow, raw", "cantitate_g": 30 },
+      { "nume": "Oil, olive, extra virgin", "cantitate_g": 10 }
+    ],
+    "instructiuni": ["Se scurge năutul.", "Se adaugă ardeiul gras tăiat cuburi și ceapa tocată mărunt.", "Se stropește cu ulei."]
+  },
+  {
+    "id": 60,
+    "nume_reteta": "Supă Ușoară de Roșii cu Busuioc",
+    "perioade_zi": ["pranz", "seara"],
+    "timp_preparare_minute": 25,
+    "ingrediente": [
+      { "nume": "Tomatoes, canned, red, ripe, diced", "cantitate_g": 300 },
+      { "nume": "Onions, yellow, raw", "cantitate_g": 50 },
+      { "nume": "Oil, olive, extra virgin", "cantitate_g": 10 }
+    ],
+    "instructiuni": ["Se fierb roșiile la conservă cu ceapa și puțină apă.", "Se pasează totul fin cu un blender și se adaugă uleiul de măsline."]
+  },
+  {
+    "id": 61,
+    "nume_reteta": "Omletă Simplă cu Rucola",
+    "perioade_zi": ["dimineata"],
+    "timp_preparare_minute": 10,
+    "ingrediente": [
+      { "nume": "Egg, whole, raw", "cantitate_g": 100 },
+      { "nume": "Arugula, baby, raw", "cantitate_g": 40 },
+      { "nume": "Oil, sunflower", "cantitate_g": 10 }
+    ],
+    "instructiuni": ["Se bat ouăle și se toarnă în tigaia unsă cu ulei.", "Când omleta e aproape gata, se adaugă rucola proaspătă și se împăturește."]
+  },
+  {
+    "id": 62,
+    "nume_reteta": "Vită Slabă cu Sparanghel la Grătar",
+    "perioade_zi": ["pranz", "seara"],
+    "timp_preparare_minute": 20,
+    "ingrediente": [
+      { "nume": "Beef, loin, tenderloin roast, separable lean only", "cantitate_g": 120 },
+      { "nume": "Asparagus, green, raw", "cantitate_g": 120 },
+      { "nume": "Oil, olive, extra virgin", "cantitate_g": 10 }
+    ],
+    "instructiuni": ["Se frige mușchiul de vită pe grătar.", "Sparanghelul se stropește cu ulei și se rumenește alături de carne."]
+  },
+  {
+    "id": 63,
+    "nume_reteta": "Salată de Ton Ușoară cu Castraveți",
+    "perioade_zi": ["pranz", "seara"],
+    "timp_preparare_minute": 10,
+    "ingrediente": [
+      { "nume": "Fish, tuna, light, canned in water", "cantitate_g": 120 },
+      { "nume": "Cucumber, with peel, raw", "cantitate_g": 120 },
+      { "nume": "Lettuce, iceberg, raw", "cantitate_g": 80 }
+    ],
+    "instructiuni": ["Se amestecă tonul scurs bine cu feliile de castravete și bucățile rupte de salată iceberg."]
+  },
+  {
+    "id": 64,
+    "nume_reteta": "Salată de Fructe Ușoară cu Migdale",
+    "perioade_zi": ["dimineata"],
+    "timp_preparare_minute": 5,
+    "ingrediente": [
+      { "nume": "Salată de fructe (fără citrice)", "cantitate_g": 150 },
+      { "nume": "Nuts, almonds, whole, raw", "cantitate_g": 20 }
+    ],
+    "instructiuni": ["Se pun fructele într-un bol mic.", "Se adaugă migdalele zdrobite deasupra pentru consistență."]
+  },
+  {
+    "id": 65,
+    "nume_reteta": "Curcan Sotat cu Dovleac Butternut",
+    "perioade_zi": ["pranz", "seara"],
+    "timp_preparare_minute": 30,
+    "ingrediente": [
+      { "nume": "Turkey, ground, 93% lean, 7% fat", "cantitate_g": 120 },
+      { "nume": "Squash, winter, butternut, raw", "cantitate_g": 150 },
+      { "nume": "Oil, canola", "cantitate_g": 10 }
+    ],
+    "instructiuni": ["Se taie dovleacul cubulețe mărute.", "Se sotează carnea de curcan cu dovleacul în ulei până se înmoaie."]
+  },
+  {
+    "id": 66,
+    "nume_reteta": "Bol de Orez Negru cu Ciuperci",
+    "perioade_zi": ["pranz", "seara"],
+    "timp_preparare_minute": 40,
+    "ingrediente": [
+      { "nume": "Rice, black, unenriched, raw", "cantitate_g": 50 },
+      { "nume": "Mushrooms, shiitake", "cantitate_g": 120 },
+      { "nume": "Oil, sunflower", "cantitate_g": 10 }
+    ],
+    "instructiuni": ["Se fierbe orezul negru separat.", "Se călesc ciupercile și se amestecă totul la final."]
+  },
+  {
+    "id": 67,
+    "nume_reteta": "Salată de Varză Kale cu Năut",
+    "perioade_zi": ["pranz", "seara"],
+    "timp_preparare_minute": 15,
+    "ingrediente": [
+      { "nume": "Kale, raw", "cantitate_g": 80 },
+      { "nume": "Chickpeas, canned", "cantitate_g": 100 },
+      { "nume": "Oil, olive, extra virgin", "cantitate_g": 10 }
+    ],
+    "instructiuni": ["Se masează bine frunzele de kale cu ulei.", "Se adaugă boabele de năut clătite și scurse."]
+  },
+  {
+    "id": 68,
+    "nume_reteta": "Miel la Tigaie cu Ceapă și Roșii Grape",
+    "perioade_zi": ["pranz", "seara"],
+    "timp_preparare_minute": 25,
+    "ingrediente": [
+      { "nume": "Lamb, ground, raw", "cantitate_g": 120 },
+      { "nume": "Onions, red, raw", "cantitate_g": 40 },
+      { "nume": "Tomatoes, grape, raw", "cantitate_g": 80 }
+    ],
+    "instructiuni": ["Se rumenește mielul în grăsimea proprie.", "Se adaugă ceapa roșie și roșiile grape întregi spre final."]
+  },
+  {
+    "id": 69,
+    "nume_reteta": "Smoothie de Căpșuni cu Lapte de Migdale",
+    "perioade_zi": ["dimineata"],
+    "timp_preparare_minute": 5,
+    "ingrediente": [
+      { "nume": "Almond milk, unsweetened, plain", "cantitate_g": 250 },
+      { "nume": "Strawberries, raw", "cantitate_g": 120 },
+      { "nume": "Chia seeds, dry, raw", "cantitate_g": 15 }
+    ],
+    "instructiuni": ["Se pun toate ingredientele în blender și se mixează la viteză mare până devine o băutură cremoasă."]
+  },
+  {
+    "id": 70,
+    "nume_reteta": "Pui cu Ardei Galben la Tigaie",
+    "perioade_zi": ["pranz", "seara"],
+    "timp_preparare_minute": 20,
+    "ingrediente": [
+      { "nume": "Chicken breast, boneless, skinless", "cantitate_g": 120 },
+      { "nume": "Peppers, bell, yellow, raw", "cantitate_g": 120 },
+      { "nume": "Oil, canola", "cantitate_g": 10 }
+    ],
+    "instructiuni": ["Se taie puiul și ardeiul galben fâșii.", "Se frig la foc iute în ulei de canola."]
+  }
+]

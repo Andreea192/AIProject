@@ -1,0 +1,19 @@
+{
+    "utilizator": {
+        "nume": "Utilizator",
+        "biometrie": {
+            "varsta": 21,
+            "inaltime": "156",
+            "greutate": 55.0,
+            "gen": "feminin"
+        }
+    },
+    "restrictii": {
+        "obiectiv": "sa imi pastrez greutatea actuala",
+        "alergeni": [],
+        "grupa_varsta": "adult",
+        "buget_maxim": 500.0,
+        "deficienta": "proteine_g",
+        "stil_de_viata": "activ"
+    }
+}

@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "sectiune": "Biometrie",
+        "tip": "text",
+        "intrebare": "Care este vârsta ta (ani)?"
+    },
+    {
+        "id": 2,
+        "sectiune": "Biometrie",
+        "tip": "alegere",
+        "intrebare": "Care este genul tău?",
+        "optiuni": ["masculin", "feminin", "altul"]
+    },
+    {
+        "id": 3,
+        "sectiune": "Biometrie",
+        "tip": "text",
+        "intrebare": "Care este greutatea ta actuală (kg)?"
+    },
+    {
+        "id": 4,
+        "sectiune": "Biometrie",
+        "tip": "text",
+        "intrebare": "Care este înălțimea ta (cm)?"
+    },
+    {
+        "id": 5,
+        "sectiune": "Finanțe",
+        "tip": "text",
+        "intrebare": "Introduceți bugetul săptămânal maxim (RON):"
+    },
+    {
+        "id": 6,
+        "sectiune": "Restricții",
+        "tip": "text",
+        "intrebare": "Ești alergic la anumite alimente? (separate prin virgulă, sau scrie 'nu'):"
+    },
+    {
+        "id": 7,
+        "sectiune": "Obiective",
+        "tip": "alegere",
+        "intrebare": "Ce scop principal ai legat de greutatea ta?",
+        "optiuni": ["sa slabesc", "sa ma ingras", "sa imi pastrez greutatea actuala"]
+    },
+    {
+        "id": 8,
+        "sectiune": "Sănătate",
+        "tip": "alegere",
+        "intrebare": "Dorești să rezolvi o deficiență nutrițională specifică?",
+        "optiuni": ["nu", "calciu_mg", "vitamina_c_mg", "fier_mg", "proteine_g"]
+    },
+    {
+        "id": 9,
+        "sectiune": "Stil de viata",
+        "tip": "alegere",
+        "intrebare": "Care este nivelul tău de activitate fizică zilnică?",
+        "optiuni": [
+            "sedentar",
+            "activitate usoara",
+            "activ",
+            "foarte activ"
+        ]
+    }
+]
